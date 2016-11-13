@@ -219,7 +219,8 @@ header .device-container .screen img {
   }
 }
 section {
-  padding: 100px 0;
+  /*padding: 100px 0;*/
+  padding: 50px 0;
 }
 section h2 {
   font-size: 50px;
@@ -254,7 +255,7 @@ section.download .badges .badge-link img {
   }
 }
 section.features .section-heading {
-  margin-bottom: 100px;
+  margin-bottom: 30px;
 }
 section.features .section-heading h2 {
   margin-top: 0;
@@ -289,6 +290,7 @@ section.features .feature-item i {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
 @media (min-width: 992px) {
   section.features .device-container,
   section.features .feature-item {
@@ -393,7 +395,7 @@ footer ul li a.active {
   text-decoration: none;
 }
 .bg-primary {
-  background: #fdcc52;
+  background: #f59330;
   background: -webkit-linear-gradient(#fdcc52, #fdc539);
   background: linear-gradient(#fdcc52, #fdc539);
 }
@@ -448,3 +450,21 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: #222222;
 }
+
+.scan-back-color {
+  /*background: rgba(186,228,249,0.58);*/
+  background: linear-gradient(#d7effc, #a0b9d2);
+}
+
+.scan-link {
+  color: white;
+  font-size: 50px;
+  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-weight: 200;
+  letter-spacing: 1px
+}
+
+.scan-link:hover {
+  color:white;
+}
+
