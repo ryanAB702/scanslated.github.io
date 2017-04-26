@@ -1,0 +1,380 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700|Roboto:400,400i,700");
+html {
+  background-color: #ecf0f4; }
+
+body {
+  color: #3a4c60;
+  margin: 0 auto;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400; }
+  body * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    -webkit-tap-highlight-color: transparent; }
+
+h1, h2, h3, p {
+  padding-bottom: 16px; }
+
+h1, h2, h3 {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em; }
+
+p {
+  line-height: 1.5; }
+
+/*-----------------------------------------------------------
+	HEADER
+-----------------------------------------------------------*/
+header {
+  background-color: #2F80DB;
+  background: linear-gradient(165deg, #20DAB0 0%, #2F80DB 58%, #423CDF 100%);
+  text-align: center;
+  padding-bottom: 100px; }
+  header .header-text {
+    padding: 48px 0; }
+  header .logo-container {
+    padding-bottom: 32px;
+    margin: 0 auto;
+    width: 60%;
+    max-width: 400px;
+    filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, 0.1)); }
+  header p.tagline {
+    color: #c3f6ea;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.1); }
+
+@media screen and (min-width: 40em) {
+  header {
+    padding-bottom: 225px; }
+    header p.tagline {
+      font-size: 1.5em; } }
+
+/*-----------------------------------------------------------
+	SECTION (COMMON STYLES)
+-----------------------------------------------------------*/
+section {
+  max-width: 1632px;
+  padding: 64px 16px;
+  margin: 0 auto; }
+  section > h1 {
+    text-align: center;
+    padding-bottom: 32px; }
+
+section:first-of-type {
+  padding-top: 0;
+  margin-top: -100px; }
+
+@media screen and (min-width: 40em) {
+  section {
+    max-width: 1664px;
+    padding: 80px 32px; }
+    section > h1 {
+      font-size: 3em;
+      padding-bottom: 64px; }
+  section:first-of-type {
+    margin-top: -225px; }
+  section:last-of-type {
+    padding-bottom: 64px; } }
+
+/*-----------------------------------------------------------
+	SECTION - ABOUT
+-----------------------------------------------------------*/
+section#about .flex-container {
+  display: flex;
+  flex-flow: column; }
+
+section#about .flex-item {
+  display: flex;
+  flex-flow: column;
+  align-items: center; }
+  section#about .flex-item h1 {
+    text-align: center;
+    color: #524dce; }
+  section#about .flex-item .fa {
+    color: #90a5bc;
+    padding-bottom: 32px; }
+
+section#about .flex-item:not(:first-of-type) {
+  margin-top: 16px;
+  padding-top: 32px;
+  border: solid #dce3ea;
+  border-width: 2px 0px 0px 0px; }
+
+@media screen and (min-width: 40em) {
+  section#about .flex-container {
+    flex-flow: row; }
+  section#about .flex-item {
+    flex: 1;
+    padding: 16px 32px 0 32px !important;
+    margin: 0 !important;
+    border: solid #dce3ea;
+    border-width: 0px 1px 0px 1px !important; }
+  section#about .flex-item:first-of-type {
+    border-width: 0px 1px 0px 0px !important; }
+  section#about .flex-item:last-of-type {
+    border-width: 0px 0px 0px 1px !important; } }
+
+/*-----------------------------------------------------------
+	SECTION - TEAM
+-----------------------------------------------------------*/
+section#team {
+  background-color: #fff;
+  padding-bottom: 48px; }
+  section#team .flex-container {
+    display: flex;
+    flex-flow: column; }
+  section#team .flex-item {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding-bottom: 32px; }
+    section#team .flex-item img {
+      display: block;
+      width: 128px;
+      filter: grayscale(1) brightness(1);
+      border: solid 2px #90a5bc;
+      background-color: #90a5bc;
+      border-radius: 64px;
+      margin-bottom: 16px; }
+    section#team .flex-item p {
+      padding-bottom: 4px;
+      color: #708ba9; }
+    section#team .flex-item p:first-of-type {
+      font-family: 'Roboto Condensed', sans-serif;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: inherit;
+      font-size: 1.25em; }
+
+@media screen and (min-width: 40em) {
+  section#team .flex-container {
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: center; }
+  section#team .flex-item {
+    width: 50%; } }
+
+@media screen and (min-width: 60em) {
+  section#team .flex-item {
+    width: calc(100% / 3); } }
+
+/*-----------------------------------------------------------
+	SECTION - CONTACT
+-----------------------------------------------------------*/
+section#contact {
+  text-align: center;
+  padding-bottom: 80px; }
+  section#contact > a {
+    text-decoration: none;
+    font-size: 1.5em;
+    color: #524dce;
+    box-shadow: inset 0px -8px 0px 0px #9ff1de;
+    transition: color 150ms ease-out, box-shadow 150ms ease-out; }
+  section#contact > a:hover {
+    color: #423CDF;
+    box-shadow: inset 0px -32px 0px 0px #9ff1de; }
+
+@media screen and (min-width: 40em) {
+  section#contact > h1 {
+    padding-bottom: 32px; }
+  section#contact > a {
+    font-size: 2.5em;
+    box-shadow: inset 0px -12px 0px 0px #9ff1de; }
+  section#contact > a:hover {
+    box-shadow: inset 0px -52px 0px 0px #9ff1de; } }
+
+p.copyright {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #90a5bc;
+  text-align: center; }
+
+/*
+  Responsive CSS MacBook Retina Mockup by Henri Peetsmann
+  http://codepen.io/henripeetsmann/
+*/
+.css-mb {
+  max-width: 800px;
+  /* Set the desired maximum width of the macbook */
+  min-width: 50px;
+  /* Set the desired minimum width of the macbook */
+  margin: 0 auto;
+  /* Align mockup to center */
+  padding-bottom: 64px; }
+
+.css-mb div {
+  box-sizing: border-box !important;
+  /* Just in case */ }
+
+/* Center the display */
+.css-mb .mb-display-position {
+  width: 80%;
+  margin: 0 auto; }
+
+/* The display */
+.css-mb .mb-display {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 65.9442%;
+  background: #1d2630;
+  -webkit-border-top-left-radius: 3.5% 5.3075%;
+  -moz-border-radius-topleft: 3.5% 5.3075%;
+  border-top-left-radius: 3.5% 5.3075%;
+  -webkit-border-top-right-radius: 3.5% 5.3075%;
+  -moz-border-radius-toptight: 3.5% 5.3075%;
+  border-top-right-radius: 3.5% 5.3075%; }
+
+/* Webcam */
+/* Browser may not render a perfect circle */
+.css-mb .mb-display:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 3%;
+  left: 50%;
+  width: 1%;
+  height: 1.5164%;
+  margin-left: -0.5%;
+  border-radius: 50%;
+  background: #3a4c60; }
+
+/* Glare */
+/* Browser may not render the top and right offset evenly */
+.css-mb .mb-display:after {
+  content: '';
+  display: none;
+  position: absolute;
+  right: 0.4%;
+  top: 0.64%;
+  width: 62.5%;
+  height: 100%;
+  background: none;
+  /* Hide the gradient on older browsers */
+  background: -moz-linear-gradient(55deg, transparent 61%, rgba(255, 255, 255, 0.05) 61%);
+  /* FF3.6+ */
+  background: -webkit-linear-gradient(36deg, transparent 61%, rgba(255, 255, 255, 0.05) 61%);
+  /* Chrome10+ and Safari5.1+ compute the degree differently */
+  background: -o-linear-gradient(55deg, transparent 61%, rgba(255, 255, 255, 0.05) 61%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(55deg, transparent 61%, rgba(255, 255, 255, 0.05) 61%);
+  /* IE10+ */
+  background: linear-gradient(55deg, transparent 61%, rgba(255, 255, 255, 0.05) 61%);
+  -webkit-border-top-right-radius: 5.3075%;
+  -moz-border-radius-toptight: 5.3075%;
+  border-top-right-radius: 5.3075%; }
+
+/* Only show glare, if the class is applied */
+.css-mb.with-glare .mb-display:after {
+  display: block; }
+
+/* Position the screen and give make it the right size, ratio 16:10 */
+.css-mb .mb-screen-position {
+  position: absolute;
+  top: 6.5%;
+  width: 93.2%;
+  left: 3.4%;
+  height: 0;
+  margin: 0;
+  padding-bottom: 58.25%;
+  /* Ratio */ }
+
+/* Give parent (this element) a "height", so that child elements can use height: 100%;*/
+.css-mb .mb-screen {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  background: #4b4b4d;
+  /* bg color if content is not big enough, or rendering is off */ }
+
+/* Image on the screen */
+.css-mb .mb-screen img {
+  max-width: 100%;
+  height: auto; }
+
+/* Iframe on the screen */
+.css-mb .mb-screen iframe {
+  width: 100%;
+  height: 100%;
+  border: 0; }
+
+/* Macbook body */
+.css-mb .mb-body {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 2.3%;
+  background: #d0d9e2; }
+
+/* The groove */
+.css-mb .mb-body:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 14.0740%;
+  height: 0;
+  padding-bottom: 1.4814%;
+  margin-left: -7.037%;
+  background: #90a5bc;
+  -webkit-border-bottom-left-radius: 7.0370% 50%;
+  -moz-border-radius-bottomleft: 7.0370% 50%;
+  border-bottom-left-radius: 7.0370% 50%;
+  -webkit-border-bottom-right-radius: 7.0370% 50%;
+  -moz-border-radius-bottomtight: 7.0370% 50%;
+  border-bottom-right-radius: 7.0370% 50%; }
+
+/* Macbook bottom */
+.css-mb .mb-bottom-cover {
+  width: 100%;
+  height: 0;
+  padding-bottom: 0.7407%;
+  background: #90a5bc;
+  -webkit-border-bottom-left-radius: 12% 600%;
+  -moz-border-radius-bottomleft: 12% 600%;
+  border-bottom-left-radius: 12% 600%;
+  -webkit-border-bottom-right-radius: 12% 600%;
+  -moz-border-radius-bottomtight: 12% 600%;
+  border-bottom-right-radius: 12% 600%; }
+
+/* screen link */
+a.screen-link {
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 5;
+  background-color: rgba(29, 38, 48, 0.9);
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  padding: 16px;
+  transition: opacity 150ms ease-out; }
+  a.screen-link h2 {
+    color: #fff;
+    font-size: 1.4em;
+    transition: font-size 150ms ease-out; }
+    a.screen-link h2 .fa {
+      transform: scale(0.75); }
+
+a.screen-link:hover {
+  opacity: 1; }
+  a.screen-link:hover h2 {
+    font-size: 1.5em; }
+
+@media screen and (min-width: 40em) {
+  .css-mb {
+    padding-bottom: 80px; } }
