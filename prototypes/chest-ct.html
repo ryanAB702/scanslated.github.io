@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Chest CT Prototype</title>
+    <meta name="author" content="Estlin Haiss">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="css/chest-ct.css">
+    <script src="https://use.fontawesome.com/6b794b2546.js"></script>
+    <!-- <link rel="icon" type="img/ico" href="favicon.ico"> -->
+  </head>
+
+  <body>
+    <header>
+      <div id="info-bar"><div class="info-bar-content">
+        <!-- <h1 class="scanslated-logo">Scan<span>slated</span></h1> -->
+        <img src="img/scanslated-logo-white.svg" alt="Scanslated logo" class="scanslated-logo-svg">
+        <a href=""><i class="fa fa-phone" aria-hidden="true"></i>&nbsp;&nbsp;1-800-919-0000</a>
+      </div></div>
+      <div class="intro">
+        <h1>Hi, Jessica Parks</h1>
+        <p>On February 5th, we performed a chest CT scan to look for signs of lung cancer.</p>
+      </div>
+      <nav>
+        <ul id="nav-mobile">
+          <li><a href="#summary"><i class="fa fa-chevron-circle-down" aria-hidden="true"></i> Learn about your results</a></li>
+        </ul>
+        <ul id="nav-list">
+          <li><a href="#summary"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i> Summary</a></li>
+          <li><a href="#full-report"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i> Full report</a></li>
+          <li><a href="#contact"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i> Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="summary" data-scrolloffset="0">
+      <h1 class="mobile-heading">Your report summary:</h1>
+      <div class="flex-container">
+
+        <div class="flex-item">
+          <!-- <img src="img/lungs-diagram.svg" alt="lungs diagram"> -->
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 772.503 760.213">
+          	<defs><style>.cls-1{fill:#3a4c60;}.cls-2{fill:#fff;}</style></defs>
+            <title>lungs-diagram</title>
+          	<g id="Layer_2" data-name="Layer 2">
+          		<g id="outline">
+          			<path class="cls-1" d="M760.48,449.588c-17.186-80.349-39.936-166.039-89.569-248.3C647.64,162.7,619.7,128.773,592.234,105.77,557.251,76.455,523.58,64.312,492.148,69.653c-7.1,1.208-13.262,6.355-18.319,15.291-21.035,37.071-23.108,140.737-9.294,184.209a66.172,66.172,0,0,0-10.771,17.618c-19.2-14.321-29.821-53.884-29.582-112.244.194-48.558-.015-154.238-.015-155.283C424.166,5.952,405.071,0,386.155,0s-38.011,5.952-38.011,19.229c0,1.059-.209,106.74-.015,155.3.239,58.136-10.309,97.624-29.359,112.08a65.267,65.267,0,0,0-10.8-17.484c13.814-43.472,11.741-147.108-9.279-184.179-5.072-8.936-11.233-14.083-18.334-15.291-31.433-5.341-65.1,6.8-100.086,36.117-27.45,23-55.391,56.927-78.678,95.52-49.633,82.274-72.383,167.948-89.569,248.3C-3.477,522.045-8.624,701.928,25.3,747.98c5.386,7.31,11.726,11.338,18.842,11.98,1.805.164,3.61.239,5.43.239,32.253,0,66.684-25.137,106.217-54.018,15.127-11.055,30.776-22.482,47.633-33.581,19.244-12.68,42.084-21.885,62.238-30.03,22.84-9.219,40.89-16.5,48.5-26.569,14.963-19.767,23.675-103.264,24.287-171.782.328-37.265-1.507-71.383-5.326-99.4,18.5-7.22,38.623-22.392,53.034-53.138,14.456,30.866,34.67,46.023,53.228,53.213-5.3,38.951-5.624,81.736-5.221,106.381.492,30.791,1.537,47.619,6.191,59.941,4.863,12.919,13.158,20.169,26.9,32.179,5.639,4.923,12.024,10.5,19.722,17.783,18.573,17.543,20.214,30.433,22.929,51.8.626,5.043,1.3,10.249,2.238,16.082,3.476,21.273,11.5,36.355,23.243,43.606,8.026,4.953,17.394,6.191,27.882,3.655,10.443,6.922,20.751,13.963,30.746,20.781C643.4,730.839,686.4,760.213,722.6,760.213c1.939,0,3.864-.075,5.758-.253,7.131-.642,13.471-4.67,18.842-11.98C781.127,701.928,775.981,522.045,760.48,449.588Z"/>
+          		</g>
+          		<g id="windpipe-top">
+          			<path class="cls-2" d="M407.309,20.468a40.05,40.05,0,0,1-8.608,2.477,69.938,69.938,0,0,1-12.546,1.074,72.992,72.992,0,0,1-7.966-.418,45.721,45.721,0,0,1-13.172-3.148c2.655-1.566,9.681-4.043,21.139-4.043C397.642,16.41,404.668,18.9,407.309,20.468Z"/>
+          		</g>
+          		<g id="windpipe">
+          			<path class="cls-2" d="M447.99,302.7a239.936,239.936,0,0,0-5.967,25.5c-21.781-9.861-38.22-30.821-48.051-61.6a8.2,8.2,0,0,0-15.634,0c-9.8,30.672-26.181,51.617-47.857,61.492a240.376,240.376,0,0,0-5.937-25.525c32.626-19.767,39.369-79.305,39.951-120.27a59.193,59.193,0,0,0,12.9,2.775,3.636,3.636,0,0,0,.4.015,3.725,3.725,0,0,0,.388-7.429,44.774,44.774,0,0,1-13.65-3.372c-.06-14.307-.075-33.566-.075-53.616a59.085,59.085,0,0,0,12.934,2.775,80.193,80.193,0,0,0,8.757.463,3.73,3.73,0,0,0,0-7.459,73.391,73.391,0,0,1-7.966-.418,44.364,44.364,0,0,1-13.725-3.386V89.882a52.653,52.653,0,0,0,7.787,2.014,3.554,3.554,0,0,0,.686.059,3.732,3.732,0,0,0,.671-7.4,38.018,38.018,0,0,1-9.145-2.715c.015-8.011.015-15.694.03-22.78a59,59,0,0,0,12.9,2.775,83.573,83.573,0,0,0,8.757.463,3.73,3.73,0,0,0,0-7.459,76.932,76.932,0,0,1-7.966-.418,44.686,44.686,0,0,1-13.68-3.386c0-9.324.015-17.185.03-22.765A58.582,58.582,0,0,0,377.4,31.015a79.8,79.8,0,0,0,8.757.463,78.327,78.327,0,0,0,13.9-1.194,53.971,53.971,0,0,0,7.713-2c0,5.579.015,13.441.03,22.765a38.554,38.554,0,0,1-9.1,2.7,3.73,3.73,0,0,0,.671,7.4,3.653,3.653,0,0,0,.686-.06,52.7,52.7,0,0,0,7.758-2.014c0,7.086.015,14.769.015,22.765a44.811,44.811,0,0,1-13.725,3.386,76.868,76.868,0,0,1-7.951.417,3.73,3.73,0,0,0,0,7.459,84.1,84.1,0,0,0,8.757-.462,59.28,59.28,0,0,0,12.934-2.775c0,17.812,0,36.669-.015,53.586a44.367,44.367,0,0,1-13.725,3.386,72.635,72.635,0,0,1-7.951.418,3.73,3.73,0,0,0,0,7.459,79.984,79.984,0,0,0,8.757-.462,60.229,60.229,0,0,0,12.919-2.76c-.015,8.4-.045,16.142-.06,22.81a37.856,37.856,0,0,1-9.07,2.685,3.73,3.73,0,0,0,.671,7.4,3.653,3.653,0,0,0,.686-.06,53.957,53.957,0,0,0,7.743-2C408.4,223.384,415.185,283.1,447.99,302.7Z"/>
+          		</g>
+          		<g id="left-lower" data-region-name="Left Lower Lobe">
+          			<path class="cls-2" d="M450.482,443.909"/>
+          			<path class="cls-2" d="M372.935,88.229"/>
+          			<path class="cls-2" d="M757.422,610.838c-1.387,64.252-9.488,111.006-22.228,128.3-2.745,3.715-5.49,5.729-8.175,5.967C695,748,650.012,717.294,602.423,684.787c-9.533-6.519-19.364-13.217-29.344-19.856,35.505-16.007,75.277-52.72,110.1-101.8,28.688-40.458,50.125-84.3,60.18-122.12.865,3.908,1.715,7.817,2.536,11.7C754.155,491.284,758.675,553.358,757.422,610.838Z"/>
+          			<path class="cls-2" d="M450.482,443.909"/>
+          		</g>
+          		<g id="left-lingula" data-region-name="Left Lingula" class="yellow-fill">
+          			<path class="cls-2" d="M661.767,566.71c-2.655,14.619-7.966,22.153-26.181,42.248-.075.09-.134.179-.209.269-23.81,24.406-48.1,42.174-70.294,51.02l-2.76.85c-7.713,2.417-13.963,2.044-19.11-1.134-7.832-4.833-13.635-16.663-16.335-33.312-.91-5.564-1.552-10.651-2.178-15.56-.239-1.835-.462-3.61-.7-5.386a3,3,0,0,0,.075-.821c-1.149-41.114,20.617-69.116,39.623-80.6,27.927-16.887,57.226-18.275,78.365-3.715C657.68,531.339,665.049,548.584,661.767,566.71Z"/>
+          		</g>
+          		<g id="left-upper" data-region-name="Left Upper Lobe" class="green-fill">
+          			<path class="cls-2" d="M739.565,424.152c-7.519,39.921-30.359,89.359-62.477,134.651q-4.185,5.885-8.444,11.517c.164-.746.313-1.492.463-2.283,3.774-20.766-4.968-41.308-22.825-53.616-8.846-6.087-41.219-23.854-86.45,3.476-16.693,10.1-35.356,31.776-41.308,63.015-3.7-9.951-9.876-19.782-21.3-30.582-7.907-7.474-14.695-13.412-20.154-18.171-25.54-22.317-27.076-23.66-28-81.125-.612-38.787,1.149-73.576,4.878-101.876q1.119-8.526,2.491-16.246a237.384,237.384,0,0,1,5.55-24.749,121.816,121.816,0,0,1,5.46-15.5c3.133-7.19,6.638-12.531,10.443-15.753,27.509-21.08,39.115-34.521,49.26-67.579,6.728-21.9,7.653-59.15-6.221-89.2a7.459,7.459,0,1,0-13.545,6.251c13.053,28.285,10.458,62.492,5.52,78.559-8.056,26.226-16.38,37.787-35.848,53.646C466.4,215.9,469.084,123.537,486.792,92.3c2.641-4.64,5.5-7.534,7.862-7.937,59.016-10.07,123.164,57.793,163.488,124.626C700.853,279.775,723.26,353.545,739.565,424.152Z"/>
+          		</g>
+          		<g id="right-lower" data-region-name="Right Lower Lobe" class="green-fill">
+          			<path class="cls-2" d="M194.129,660.858c-16.738,11.069-32.193,22.362-47.141,33.282-39.324,28.717-73.248,53.526-101.5,50.96-2.685-.239-5.43-2.253-8.175-5.967-12.725-17.29-20.826-64.043-22.228-128.3-1.253-57.48,3.282-119.554,11.532-158.132.821-3.849,1.656-7.7,2.506-11.576C51.317,525.208,127.206,627.427,194.129,660.858Z"/>
+          		</g>
+          		<g id="right-middle" data-region-name="Right Middle Lobe" class="red-fill">
+          			<path class="cls-2" d="M322.872,472.174c-2.611,68.8-12.054,123.537-20.6,134.83-5.132,6.788-23.138,14.053-42.189,21.736-18.692,7.534-39.608,15.992-58.509,27.4-34.222-15.56-72.622-50.946-106.366-98.221-32-44.844-54.749-93.954-62.253-133.771,7.235-31.388,15.694-63.387,26.614-95.491,18.036,41.89,69.25,98.221,134.009,129.8,22.765,11.1,52.616,21.572,84.287,21.572A128.937,128.937,0,0,0,322.872,472.174Z"/>
+          		</g>
+          		<g id="right-upper" data-region-name="Right Upper Lobe">
+          			<path class="cls-2" d="M323.529,444.083q-.09,10.137-.388,19.976c-45.679,18.275-93.581,3.655-126.3-12.307-53.407-26.047-117.525-84.72-133.5-133.935,13.053-36.5,29.448-73.054,51.02-108.828,37.638-62.373,96-125.626,151.613-125.626a70.676,70.676,0,0,1,11.89,1c2.357.4,5.206,3.3,7.847,7.937,17.723,31.238,20.408,123.6,9.742,166.292-19.468-15.858-27.777-27.42-35.833-53.646-4.938-16.067-7.549-50.259,5.5-78.559a7.459,7.459,0,1,0-13.545-6.251c-13.859,30.06-12.949,67.311-6.221,89.2,10.159,33.058,21.751,46.5,49.26,67.579,3.834,3.252,7.34,8.533,10.487,15.664a121.147,121.147,0,0,1,5.52,15.53,242.559,242.559,0,0,1,5.579,24.734q1.343,7.7,2.462,16.261C322.126,375.534,323.842,407.8,323.529,444.083Z"/>
+          		</g>
+          	</g>
+          </svg>
+          <div class="region-label">
+            <p>Your lungs</p>
+          </div>
+
+        </div>
+
+        <div class="flex-item">
+          <div>
+            <p class="larger">Your risk category:&nbsp;&nbsp;<span class="risk-number">4A</span></p>
+            <p><span class="modal-link" data-modal-target="modal-one">Learn about different risk categories&nbsp;&nbsp;<i class="fa fa-arrow-right" aria-hidden="true"></i></span></p>
+            <p>This number was determined by the most concerning nodule we found in your scan.  The diagram shows a visual summary of our findings in each region of your lungs.</p>
+          </div>
+          <div>
+            <div class="solid-button red-fill" data-region-name="Right Middle Lobe"><span>1 potentially cancerous nodule</span></div>
+            <div class="solid-button yellow-fill" data-region-name="Left Lingula"><span>1 low-risk nodule</span></div>
+            <div class="solid-button green-fill" data-region-name="Right Lower Lobe, Left Upper Lobe"><span>2 benign nodules</span></div>
+            <p><span class="modal-link" data-modal-target="modal-two">What is a nodule?&nbsp;&nbsp;<i class="fa fa-arrow-right" aria-hidden="true"></i></span></p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="full-report">
+      <div class="report-translation">
+
+        <div class="translation-pair" id="report-explanation-mobile">
+          <h1>Full Report</h1>
+          <p class="subtext">Reading complex medical jargon is our job, not yours. We converted your chest CT report into simplified language so you can understand the results, too.</p>
+          <p class="subtext">The translations <span class="color-highlight">(shown in blue)</span> are displayed along with the original report text below.</p>
+        </div>
+
+        <div class="translation-pair" id="report-explanation-full">
+          <div>
+            <h1>Your Report</h1>
+            <p class="subtext">The full, original text of your chest CT report (don't worry, we aren't expecting you to know complex medical jargon—that's our job)</p>
+          </div>
+          <div>
+            <h1>Translation</h1>
+            <p class="subtext">We converted your report into simplified language so you can understand the results, too.</p>
+          </div>
+        </div>
+
+        <div class="translation-pair paragraph">
+          <div>
+            <p><span class="bold">Indication:</span> Z12.2 Encounter for screening for malignant neoplasm of respiratory organs, screening.  Screening CT for detection of pulmonary nodules is requested.</p>
+          </div>
+          <div>
+            <p>The <span class="bold">indication</span> section states the reason why your doctor ordered this particular study. Often there will be billing code information included in this section. The billing code information is generic and will often not completely or accurately convey the true reason you and your doctor thought you needed the study.</p>
+          </div>
+        </div>
+
+        <div class="translation-pair paragraph">
+          <div>
+            <p><span class="bold">Comparison Exams:</span>  None</p>
+          </div>
+          <div>
+            <p>The <span class="bold">comparison</span> section lists any studies you had done in the past that we looked at to see if there were any changes. </p>
+          </div>
+        </div>
+
+        <div class="translation-pair paragraph">
+          <div>
+            <p><span class="bold">Protocol:</span>  Contiguous 1.25mm axial images were obtained from the neck base through the upper abdomen without IV contrast material using low dose technique. 5mm axial, sagittal, and coronal reconstructions, as well as 3D maximal intensity projections (MIP) to facilitate nodule detection were also performed.</p>
+          </div>
+          <div>
+            <p>The <span class="bold">protocol</span> section describes the technical aspects of the scan. This scan was a computed tomography (CT) scan of the chest.  This scan was performed to look for signs of lung cancer.</p>
+          </div>
+        </div>
+
+        <div class="translation-pair paragraph no-bottom-border">
+          <div>
+            <p><span class="bold">Findings:</span></p>
+          </div>
+          <div>
+            <p>This part of the report describes what the radiologist sees on your images. The radiologist will often comment on both normal and abnormal structures.</p>
+          </div>
+        </div>
+
+        <div class="translation-pair paragraph no-bottom-border">
+          <div>
+            <p>The visualized thyroid appears unremarkable.</p>
+          </div>
+          <div>
+            <p>Your thyroid gland is normal.</p>
+            <p class="definition">The thyroid gland is a small butterfly-shaped organ that produces hormones that control growth and metabolism. It is located in the lower neck, just in front of the windpipe.</p>
+          </div>
+        </div>
+
+        <div class="translation-pair paragraph no-bottom-border">
+          <div>
+            <p>The heart, aorta, and main pulmonary artery are normal in size.</p>
+          </div>
+          <div>
+            <p>Your heart and the large vessels that take blood from the heart to the lungs (pulmonary artery) and the rest of the body (aorta) are normal in size.</p>
+          </div>
+        </div>
+
+        <div class="translation-pair paragraph no-bottom-border">
+          <div>
+            <p>Moderate 3 vessel coronary artery calcifications noted.</p>
+          </div>
+          <div>
+            <p>Coronary arteries supply heart muscle with oxygen. Disease of the coronary arteries can lead to heart attacks. There are calcifications on your coronary arteries which is a sign of coronary artery disease.</p>
+          </div>
+        </div>
+
+        <div class="translation-pair paragraph no-bottom-border">
+          <div>
+            <p>No pericardial effusion.</p>
+          </div>
+          <div>
+            <p>No fluid around the heart.</p>
+          </div>
+        </div>
+
+        <div class="translation-pair paragraph no-bottom-border">
+          <div>
+            <p>No mediastinal, hilar, or axillary lymphadenopathy. Multiple calcified mediastinal and right hilar lymph nodes are noted and likely sequela of prior granulomatous infection.</p>
+          </div>
+          <div>
+            <p>The lymph nodes in your chest and under your arms are normal in size. Some of the lymph nodes in your chest have calcification. This is a common finding. Often this is related to a prior infection that you may not have even known you had.</p>
+          </div>
+        </div>
+
+        <div class="translation-pair paragraph no-bottom-border">
+          <div>
+            <p>The central airways are patent.</p>
+          </div>
+          <div>
+            <p>The trachea (windpipe) is open.</p>
+          </div>
+        </div>
+
+        <div class="translation-pair paragraph no-bottom-border">
+          <div>
+            <p>Moderate, apical predominant centrilobular emphysematous changes are noted.</p>
+          </div>
+          <div>
+            <p>Your lungs show emphysema. Emphysema is a lung disease that is most often caused by smoking. Smoking causes destruction of the air sacs of the lung. Emphysema can lead to symptoms such as shortness of breath or cough.</p>
+          </div>
+        </div>
+
+        <div class="translation-pair paragraph no-bottom-border">
+          <div>
+            <p>Multiple small nodules bilaterally.</p>
+          </div>
+          <div>
+            <p>You have small pulmonary nodules in both of your lungs. This is common in people your age.</p>
+            <p class="definition">A pulmonary nodule is a round or oval-shaped growth in the lung. There are four types of pulmonary nodules: solid, groundglass, mixed solid/groundglass, and calcified.</p>
+          </div>
+        </div>
+
+        <div class="translation-pair paragraph no-bottom-border">
+          <div>
+            <p>Representative and largest irregular nodule in the left upper lobe (series 4, image 109) measures 8mm.</p>
+          </div>
+          <div>
+            <p>The largest pulmonary nodule is in the upper aspect of your left lung and measures 0.8cm.</p>
+          </div>
+        </div>
+
+        <div class="translation-pair paragraph no-bottom-border">
+          <div>
+            <p>Additional smaller nodule in the left upper lobe (series 4, image 249) measures 5mm.</p>
+          </div>
+          <div>
+            <p>There is a 0.5cm pulmonary nodule which is also in the upper aspect of your left lung.</p>
+          </div>
+        </div>
+
+        <div class="translation-pair paragraph no-bottom-border">
+          <div>
+            <p>Groundglass nodule in the right upper lobe (series 4, image 126) measures 4mm.</p>
+          </div>
+          <div>
+            <p>There is a 0.4cm pulmonary nodule in the upper aspect of your right lung.</p>
+          </div>
+        </div>
+
+        <div class="translation-pair paragraph no-bottom-border">
+          <div>
+            <p>Solid nodule in the right upper lobe (series 4, image 138) measures 4mm. Multiple additional smaller nodules.</p>
+          </div>
+          <div>
+            <p>There is a 0.4cm solid pulmonary nodule in the upper aspect of your right lung.</p>
+          </div>
+        </div>
+
+        <div class="translation-pair paragraph no-bottom-border">
+          <div>
+            <p>No pleural effusion.</p>
+          </div>
+          <div>
+            <p>No fluid around your lungs.</p>
+          </div>
+        </div>
+
+        <div class="translation-pair paragraph no-bottom-border">
+          <div>
+            <p>No pneumothorax.</p>
+          </div>
+          <div>
+            <p>Your lungs are not collapsed.</p>
+          </div>
+        </div>
+
+        <div class="translation-pair paragraph no-bottom-border">
+          <div>
+            <p>Limited evaluation the upper abdomen is unremarkable.</p>
+          </div>
+          <div>
+            <p>The upper part of your abdomen was partially seen on the images. The part of your abdomen that was seen is normal.</p>
+          </div>
+        </div>
+
+        <div class="translation-pair paragraph">
+          <div>
+            <p>No aggressive osseous lesions identified.</p>
+          </div>
+          <div>
+            <p>Your bones are normal.</p>
+          </div>
+        </div>
+
+        <div class="translation-pair paragraph no-bottom-border">
+          <div>
+            <p><span class="bold">Impression:</span></p>
+          </div>
+          <div>
+          </div>
+        </div>
+
+        <div class="translation-pair paragraph no-bottom-border">
+          <div>
+            <p>1. Solid nodule in the left upper lobe measuring 8mm in maximum dimension, differential considerations include neoplasm, infection, and inflammation. There are also some smaller nodules as described above. Lung-RADS category 4A - Suspicious. Based upon nodule characteristics, additional testing is recommended: 3 month follow-up CT.</p>
+          </div>
+          <div>
+            <p>The largest pulmonary nodule in the upper aspect of your left lung is suspicious. In other words, we cannot tell if this pulmonary nodule is cancer or not. There is an 85-95% chance that this nodule is not cancer. To be 100% sure, we want to follow this pulmonary nodule closely. We recommend a follow up CT scan 3 months from now.</p>
+          </div>
+        </div>
+
+        <div class="translation-pair paragraph no-bottom-border">
+          <div>
+            <p>2. Moderate centrilobular emphysema.</p>
+          </div>
+          <div>
+            <p>There is evidence of damage to your lungs due to smoking. If you are still smoking, you should stop now before the lung damage becomes worse. If you have already quit smoking, congratulations! While your lungs will never return entirely to normal, you can prevent further damage by remaining smoke-free.</p>
+          </div>
+        </div>
+
+        <div class="translation-pair paragraph no-bottom-border">
+          <div>
+            <p>3. Moderate coronary artery calcifications.</p>
+          </div>
+          <div>
+            <p>There is evidence of coronary artery disease, which places you at risk for heart attack. There are medications and lifestyle modifications you can make to minimize your risk. Talk to your doctor about these changes.</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="flex-container">
+        <div class="flex-item">
+          <p class="large">Need more information?</p>
+          <p>We're available to talk if you have any questions or concerns about your scan.</p>
+          <div class="solid-button"><span>Message your radiologist</span></div>
+        </div>
+        <div class="flex-item">
+          <p class="large">What's next?</p>
+          <p>You have a suspicious nodule that we would like to keep an eye on. Schedule a follow-up online or by phone below.</p>
+          <div class="solid-button"><span>Schedule an appointment</span></div>
+        </div>
+        <div class="flex-item">
+          <p class="large">Other helpful resources:</p>
+          <p><span class="modal-link" data-modal-target="modal-two">Reducing your risk of lung cancer&nbsp;&nbsp;<i class="fa fa-arrow-right" aria-hidden="true"></i></span></p>
+          <p><span class="modal-link" data-modal-target="modal-two">Tips for a heart-healthy lifestyle&nbsp;&nbsp;<i class="fa fa-arrow-right" aria-hidden="true"></i></span></p>
+          <p><span class="modal-link" data-modal-target="modal-two">Need help quitting smoking?&nbsp;&nbsp;<i class="fa fa-arrow-right" aria-hidden="true"></i></span></p>
+        </div>
+      </div>
+      <div class="arrow-down"></div>
+      <div class="doctor-profile">
+        <img src="img/profile-icon.png" alt="profile image">
+        <p>Ryan Short, M.D.</p>
+        <p>Duke Radiology</p>
+        <p><a href="">919-100-2000</a></p>
+      </div>
+    </section>
+
+    <div class="modal">
+      <div class="modal-close-area"></div>
+      <div class="modal-content" id="modal-one">
+        <div class="modal-close-button"><div></div><div></div></div>
+        <h1>What's your risk score mean?</h1>
+        <p>We use the American College of Radiology Lung Imaging Reporting and Data System (Lung-RADS) to determine your risk of lung cancer.</p>
+        <div class="categories">
+          <div class="solid-button"><span>0 - Incomplete exam</span></div>
+          <p class="subtext">Additional imaging or comparison to prior exams recommended</p>
+          <div class="solid-button green-label"><span>1 - Negative</span></div>
+          <p class="subtext">Annual screening recommended</p>
+          <div class="solid-button green-label"><span>2 - Benign Appearance or Behavior</span></div>
+          <p class="subtext">Annual screening recommended</p>
+          <div class="solid-button yellow-label"><span>3 - Probably Benign</span></div>
+          <p class="subtext">Short-term follow-up recommended</p>
+          <div class="solid-button red-label"><span>4 (A, B, or X) - Suspicious</span></div>
+          <p class="subtext">Additional diagnostic testing and/or tissue sampling recommended</p>
+        </div>
+      </div>
+
+      <div class="modal-content" id="modal-two">
+        <div class="modal-close-button"><div></div><div></div></div>
+        <h1>Example Modal</h1>
+        <p>This modal pop-up can be used to show secondary information, such as in-depth definitions.</p>
+      </div>
+    </div>
+
+    <footer>
+      <div class="footer-container">
+        <div class="flex-container">
+          <div class="flex-item">
+            <!-- <h1 class="scanslated-logo">Scan<span>slated</span></h1> -->
+              <h1>&copy; <script type="text/javascript">document.write(new Date().getFullYear());</script> Scanslated, Inc.</h1>
+            <p><a href=""><i class="fa fa-phone" aria-hidden="true"></i>&nbsp;&nbsp;1-800-919-0000</a></p>
+          </div>
+          <div class="flex-item">
+            <h1>Information</h1>
+            <p><a href="">About Scanslated</a></p>
+            <p><a href="">About Duke Health</a></p>
+          </div>
+          <div class="flex-item">
+            <h1>Resources</h1>
+            <p><a href="">Duke MyChart</a></p>
+            <p><a href="">Privacy Policy</a></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/smooth-scroll.js"></script>
+    <script src="js/navigation.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/scroll-waypoints.js"></script>
+    <script src="js/modal.js"></script>
+    <script src="js/chest-ct-diagram-highlight.js"></script>
+  </body>
+</html>

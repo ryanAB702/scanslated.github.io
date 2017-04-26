@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Mammogram Prototype</title>
+    <meta name="author" content="Estlin Haiss">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="css/mammo.css">
+    <script src="https://use.fontawesome.com/6b794b2546.js"></script>
+    <!-- <link rel="icon" type="img/ico" href="favicon.ico"> -->
+  </head>
+
+  <body>
+    <header>
+      <div id="info-bar"><div class="info-bar-content">
+        <!-- <h1 class="scanslated-logo">Scan<span>slated</span></h1> -->
+        <img src="img/scanslated-logo-white.svg" alt="Scanslated logo" class="scanslated-logo-svg">
+        <a href=""><i class="fa fa-phone" aria-hidden="true"></i>&nbsp;&nbsp;1-800-919-0000</a>
+      </div></div>
+      <div class="intro">
+        <h1>Hi, Jane Watkins</h1>
+        <p>On April 9th, we performed a mammogram to look for signs of breast cancer.</p>
+      </div>
+      <nav>
+        <ul id="nav-mobile">
+          <li><a href="#summary"><i class="fa fa-chevron-circle-down" aria-hidden="true"></i> Learn about your results</a></li>
+        </ul>
+        <ul id="nav-list">
+          <li><a href="#summary"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i> Summary</a></li>
+          <li><a href="#full-report"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i> Full report</a></li>
+          <li><a href="#contact"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i> Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="summary" data-scrolloffset="0">
+      <h1 class="mobile-heading">Your report summary:</h1>
+
+      <div class="flex-container">
+
+        <div class="flex-item">
+          <div class="diagram-container">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 475.09 360.374"><defs><style>.cls-1{fill:#666;}.cls-2{fill:#ccc;}</style></defs><title>breast-diagram</title><g id="Layer_2" data-name="Layer 2"><g id="outline"><path class="cls-1" d="M196.223,253.844a109.677,109.677,0,0,1-20.06,13.242c-36.559,18.946-80.464,19.9-114.58,2.485A98.508,98.508,0,0,1,49.4,262.208a5.007,5.007,0,0,0-2.441-1.783c-23.948-18.156-36.94-46.293-36.958-80.9C9.985,151.9,22.48,125.411,35.709,97.365,38.5,91.447,41.387,85.327,44.2,79.119,51.908,62.066,57.5,42.164,60.822,19.967a5,5,0,0,0-9.891-1.479C47.748,39.773,42.416,58.786,35.084,75q-1.737,3.841-3.511,7.639C29.087,53.529,22.99,17.7,19.725,3.854A5,5,0,1,0,9.992,6.149c3.881,16.457,11.854,64.621,12.624,94.2a4.994,4.994,0,0,0,.146,1.054C10.585,127.463-.014,152.519,0,179.534c.02,37.841,14.323,68.687,40.688,88.709l.359,3.392c4.105,38.806,6.818,64.443,6.818,83.74a5,5,0,0,0,10,0c0-18.991-2.51-43.515-6.36-79.932,1.8,1.051,3.64,2.07,5.531,3.036a127.919,127.919,0,0,0,58.113,13.5,143.285,143.285,0,0,0,65.615-16.008A119.637,119.637,0,0,0,202.652,261.5a5,5,0,0,0-6.43-7.658Z"/><path class="cls-1" d="M475.09,179.534c.014-27.015-10.585-52.071-22.762-78.133a4.993,4.993,0,0,0,.146-1.054c.77-29.567,8.743-77.736,12.624-94.2a5,5,0,1,0-9.732-2.295C452.1,17.7,446,53.533,443.517,82.636q-1.766-3.8-3.511-7.639c-7.332-16.212-12.664-35.225-15.848-56.51a5,5,0,0,0-9.891,1.479c3.32,22.2,8.914,42.1,16.627,59.151,2.809,6.209,5.7,12.328,8.486,18.246,13.229,28.046,25.724,54.537,25.709,82.163-.018,34.6-13.01,62.741-36.958,80.9a5,5,0,0,0-2.441,1.784,98.493,98.493,0,0,1-12.184,7.363c-34.116,17.412-78.021,16.46-114.58-2.485a109.677,109.677,0,0,1-20.06-13.242,5,5,0,0,0-6.43,7.658,119.637,119.637,0,0,0,21.888,14.463,143.248,143.248,0,0,0,65.615,16.008,127.96,127.96,0,0,0,58.113-13.5c1.892-.966,3.729-1.985,5.532-3.037-3.851,36.416-6.361,60.942-6.361,79.933a5,5,0,0,0,10,0c0-19.3,2.714-44.95,6.823-83.772l.355-3.361C460.767,248.219,475.07,217.374,475.09,179.534Z"/></g><g id="nipples"><path class="cls-2" d="M112.377,161.037c-5.228-2.509-14.975-2.741-20.919-.853a29.012,29.012,0,0,0-16.4,12.69,31.409,31.409,0,0,0-4.459,21.81,27.459,27.459,0,0,0,8.694,15.692,29.87,29.87,0,0,0,49.2-23.308C128.288,175.654,122.669,165.975,112.377,161.037Zm-10.155,37.445a10.487,10.487,0,0,1-11.015-1.45,9.416,9.416,0,0,1-2.981-5.381,10.77,10.77,0,0,1,1.529-7.479,9.948,9.948,0,0,1,5.623-4.351,11.611,11.611,0,0,1,7.173.293,9.711,9.711,0,0,1,5.527,8.926A10.487,10.487,0,0,1,102.222,198.482Z"/><path class="cls-2" d="M346.595,187.067a29.87,29.87,0,0,0,49.2,23.308,27.459,27.459,0,0,0,8.694-15.692,31.409,31.409,0,0,0-4.459-21.81,29.012,29.012,0,0,0-16.4-12.69c-5.944-1.888-15.691-1.655-20.919.853C352.421,165.975,346.8,175.654,346.595,187.067Zm20.417,1.973a9.711,9.711,0,0,1,5.527-8.926,11.611,11.611,0,0,1,7.173-.293,9.948,9.948,0,0,1,5.623,4.351,10.77,10.77,0,0,1,1.529,7.479,9.416,9.416,0,0,1-2.981,5.381,10.242,10.242,0,0,1-16.871-7.992Z"/></g></g></svg>
+            <div class="finding-icon left one green-fill">
+              <img src="img/green-mass.svg" alt="benign mass">
+            </div>
+            <div class="finding-icon right ten yellow-fill">
+              <img src="img/yellow-calcification.svg" alt="worrisome calcification">
+            </div>
+          </div>
+          <div class="region-label">
+            <p>Right</p>
+            <p>Left</p>
+          </div>
+        </div>
+
+        <div class="flex-item">
+          <div>
+            <p class="larger">Your exam score:&nbsp;&nbsp;<br><span class="risk-number">0 (calcification)</span></p>
+            <p><span class="modal-link" data-modal-target="modal-bi-rads">What does this number mean?&nbsp;&nbsp;<i class="fa fa-arrow-right" aria-hidden="true"></i></span></p>
+            <p>We found new calcifications in the images of your right breast, but we can't tell if they are cancer from this test alone.  We will need to perform another mammogram to get a closer look.</p>
+          </div>
+          <div>
+            <div class="solid-button yellow-fill" data-region-name="Right breast"><span>New mineral deposits (calcifications)</span></div>
+            <div class="solid-button green-fill" data-region-name="Left breast"><span>Preexisting non-cancerous mass</span></div>
+            <!-- <p><span class="modal-link" data-modal-target="modal-sample">More information&nbsp;&nbsp;<i class="fa fa-arrow-right" aria-hidden="true"></i></span></p> -->
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="full-report">
+      <div class="report-translation">
+
+        <div class="translation-pair" id="report-explanation-mobile">
+          <h1>Full Report</h1>
+          <p class="subtext">Reading complex medical jargon is our job, not yours. We converted your mammogram report into simplified language so you can understand the results, too.</p>
+          <p class="subtext">The translations <span class="color-highlight">(shown in pink)</span> are displayed along with the original report text below.</p>
+          <p class="subtext">Tap any <span class="highlight-sample">highlighted</span> term to read about its meaning.</p>
+        </div>
+
+        <div class="translation-pair" id="report-explanation-full">
+          <div>
+            <h1>Your Report</h1>
+            <p class="subtext">The full, original text of your mammogram report (don't worry, we aren't expecting you to know complex medical jargon—that's our job)</p>
+            <p class="subtext">Click on any <span class="highlight-sample">highlighted</span> term to read about its meaning.</p>
+          </div>
+          <div>
+            <h1>Translation</h1>
+            <p class="subtext">We converted your report into simplified language so you can understand the results, too.</p>
+          </div>
+        </div>
+
+        <div class="translation-pair paragraph">
+          <div>
+            <p><span class="bold"><span class="modal-link" data-modal-target="modal-bilateral-screening-mammogram">Bilateral Screening Mammogram</span></span></p>
+            <p><span class="bold"><span class="modal-link" data-modal-target="modal-indication">Indication</span>:</span> Screening for Breast Cancer Z12.31</p>
+          </div>
+          <div>
+            <p>This exam was performed to look for any signs of breast cancer.</p>
+          </div>
+        </div>
+
+        <div class="translation-pair paragraph">
+          <div>
+            <p><span class="bold">Comparison Exams:</span> Prior screening mammograms from 10/1/15, 9/16/14, and 8/12/13.</p>
+          </div>
+          <div>
+            <p>We looked at your past mammograms from 2013, 2014, and 2015 to see if there were any small changes.</p>
+          </div>
+        </div>
+
+        <div class="translation-pair paragraph no-bottom-border">
+          <div>
+            <p><span class="bold">Findings:</span></p>
+          </div>
+          <div>
+            <p> This part of the report describes what we saw in your scan.</p>
+          </div>
+        </div>
+
+        <div class="translation-pair paragraph no-bottom-border">
+          <div>
+            <p>There are scattered areas of <span class="modal-link" data-modal-target="modal-breast-density">fibroglandular density</span> in the right and left breasts.</p>
+          </div>
+          <div>
+            <p>Your breasts contain slightly more fat than gland tissue. This is normal.</p>
+          </div>
+        </div>
+
+        <div class="translation-pair paragraph no-bottom-border">
+          <div>
+            <p>In the <span class="modal-link" data-modal-target="modal-quadrants">upper outer quadrant</span> of the right breast at <span class="modal-link" data-modal-target="modal-clock">10:00</span>, <span class="modal-link" data-modal-target="modal-depth">posterior depth</span>, approximately 4cm from the nipple, there are <span class="modal-link" data-modal-target="modal-calcifications">calcifications</span> which are <span class="modal-link" data-modal-target="modal-new-from-prior">new from prior</span> and <span class="modal-link" data-modal-target="modal-suspicious-worrisome">suspicious</span>. No associated <span class="modal-link" data-modal-target="modal-mass">mass</span> or <span class="modal-link" data-modal-target="modal-asymmetry">asymmetry</span>. No additional <span class="modal-link" data-modal-target="modal-suspicious-worrisome">worrisome</span> <span class="modal-link" data-modal-target="modal-calcifications">calcifications</span>.</p>
+          </div>
+          <div>
+            <p>In the upper outer part of your right breast, there are new mineral deposits. These mineral deposits, or calcifications are varied in shape. This type of mineral deposit can sometimes be a result of breast cancer. The rest of your breast is normal.</p>
+          </div>
+        </div>
+
+        <div class="translation-pair paragraph">
+          <div>
+            <p>There is an <span class="modal-link" data-modal-target="modal-equal-density">equal density</span> <span class="modal-link" data-modal-target="modal-oval">oval</span> <span class="modal-link" data-modal-target="modal-circumscribed">circumscribed</span> <span class="modal-link" data-modal-target="modal-mass">mass</span> in the <span class="modal-link" data-modal-target="modal-quadrants">upper outer quadrant</span> of the left breast, <span class="modal-link" data-modal-target="modal-depth">posterior depth</span>, approximately 3 cm from the nipple which is <span class="modal-link" data-modal-target="modal-stable-from-prior">stable from prior</span>. No <span class="modal-link" data-modal-target="modal-suspicious-worrisome">suspicious</span> <span class="modal-link" data-modal-target="modal-mass">masses</span>, <span class="modal-link" data-modal-target="modal-asymmetry">asymmetries</span> or <span class="modal-link" data-modal-target="modal-calcifications">calcifications</span>.</p>
+          </div>
+          <div>
+            <p>There is a lump of tissue in your upper outer left breast. This lump is not different from your last mammogram. This lump is not cancer. There are no findings of breast cancer in your left breast. Your left breast is normal.</p>
+          </div>
+        </div>
+
+        <div class="translation-pair paragraph no-bottom-border">
+          <div>
+            <p><span class="bold">Impression:</span></p>
+          </div>
+          <div>
+            <p>This is what we recommend based on the findings above.</p>
+          </div>
+        </div>
+
+        <div class="translation-pair paragraph no-bottom-border">
+          <div>
+            <p><span class="modal-link" data-modal-target="modal-bi-rads">BI-RADS 0</span>: Incomplete, additional evaluation needed. Recommend <span class="modal-link" data-modal-target="modal-diagnostic-mammogram">diagnostic mammogram</span> for new <span class="modal-link" data-modal-target="modal-pleomorphic">pleomorphic</span> <span class="modal-link" data-modal-target="modal-calcifications">calcifications</span> in the right breast which are <span class="modal-link" data-modal-target="modal-suspicious-worrisome">suspicious</span>.</p>
+          </div>
+          <div>
+            <p>There are new calcifications in your right breast which can be a sign of breast cancer. We need to take a closer look to further evaluate the calcifications.</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="flex-container">
+        <div class="flex-item">
+          <p class="large">Need more information?</p>
+          <p>We're available to talk if you have any questions or concerns about your scan.</p>
+          <div class="solid-button"><span>Message your radiologist</span></div>
+        </div>
+        <div class="flex-item">
+          <p class="large">What's the next step?</p>
+          <p>We want to take a closer look at the calcifications in your right breast. Schedule a follow-up online or by phone.</p>
+          <div class="solid-button"><span>Schedule an appointment</span></div>
+        </div>
+        <div class="flex-item">
+          <p class="large">Other helpful resources:</p>
+          <p><span class="modal-link" data-modal-target="modal-sample">Modal link sample&nbsp;&nbsp;<i class="fa fa-arrow-right" aria-hidden="true"></i></span></p>
+          <p><span class="modal-link" data-modal-target="modal-sample">Modal link sample&nbsp;&nbsp;<i class="fa fa-arrow-right" aria-hidden="true"></i></span></p>
+          <p><span class="modal-link" data-modal-target="modal-sample">Modal link sample&nbsp;&nbsp;<i class="fa fa-arrow-right" aria-hidden="true"></i></span></p>
+        </div>
+      </div>
+      <div class="arrow-down"></div>
+      <div class="doctor-profile">
+        <img src="img/profile-icon.png" alt="profile image">
+        <p>Ryan Short, M.D.</p>
+        <p>Duke Radiology</p>
+        <p><a href="">919-100-2000</a></p>
+      </div>
+    </section>
+
+    <div class="modal">
+      <div class="modal-close-area"></div>
+
+      <div class="modal-content" id="modal-bi-rads">
+        <div class="modal-close-button"><div></div><div></div></div>
+        <div class="modal-scroll-container">
+          <h1>What's your exam score mean?</h1>
+          <p>Doctors use the American College of Radiology Breast Imaging Reporting and Data System (BI-RADS) to communicate your risk of breast cancer.  There are six categories used to classify mammograms.</p>
+          <p>A zero score can represent any of the four scenarios shown in yellow.  If we saw one or more of these in your scan, we will need to perform another mammogram to make sure the finiding isn't cancer. </p>
+          <div class="categories">
+            <div class="solid-button yellow-label"><span>0 - Inconclusive (mass)</span></div>
+            <p class="subtext">There is a mass in your breast(s), which is often a non-cancer finding such as a cyst or fibroadenoma.</p>
+            <div class="solid-button yellow-label"><span>0 - Inconclusive (calcification)</span></div>
+            <p class="subtext">There are calcifications in your breast(s), which are often a non-cancer finding.</p>
+            <div class="solid-button yellow-label"><span>0 - Inconclusive (asymmetry)</span></div>
+            <p class="subtext">There is an asymmetry in your breast(s), which is often a non-cancer finding such as overlapping breast tissue.</p>
+            <div class="solid-button yellow-label"><span>0 - Inconclusive (architectural distortion)</span></div>
+            <p class="subtext">There is architectual distortion in your breast(s), which can be due to prior surgery or other non-cancer reasons.</p>
+            <div class="solid-button green-label"><span>1 - Normal</span></div>
+            <p class="subtext">Your breasts are completely normal, and there is no evidence of breast cancer.</p>
+            <div class="solid-button green-label"><span>2 - No evidence of breast cancer</span></div>
+            <p class="subtext">There were findings in your scan, but none of them represent cancer.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal-content" id="modal-sample">
+        <div class="modal-close-button"><div></div><div></div></div>
+        <div class="modal-scroll-container">
+          <h1>Sample Modal</h1>
+          <p>This modal pop-up can be used to show secondary information, such as in-depth definitions or external resources.</p>
+          <!-- <p>Only one modal div exists in the HTML (class="modal"). Content is shown based on IDs of modal-content divs within the modal div.  For example, the div containing this text has class="modal-content" and id="modal-sample"</p>
+          <p>It will show up when any anchor link with class="modal-link" and data-modal-target="modal-sample" is clicked.</p> -->
+        </div>
+      </div>
+
+      <div class="modal-content" id="modal-bilateral-screening-mammogram">
+        <div class="modal-close-button"><div></div><div></div></div>
+        <div class="modal-scroll-container">
+          <h2 class="definition-term">Bilateral Screening Mammogram</h2>
+          <p>This type of mammogram is performed to check for signs of cancer in women who don’t have any symptoms or breast problems. The test usually consists of four x-ray pictures (a top-view and a side-view for each breast).</p>
+        </div>
+      </div>
+
+      <div class="modal-content" id="modal-diagnostic-mammogram">
+        <div class="modal-close-button"><div></div><div></div></div>
+          <div class="modal-scroll-container">
+          <h2 class="definition-term">Diagnostic Mammogram</h2>
+          <p>When a patient has breast problems or has something abnormal on a screening mammogram, a diagnostic mammogram is needed. This usually consists of more x-ray pictures to take a closer look at any problem areas.</p>
+        </div>
+      </div>
+
+      <div class="modal-content" id="modal-indication">
+        <div class="modal-close-button"><div></div><div></div></div>
+        <div class="modal-scroll-container">
+          <h2 class="definition-term">Indication</h2>
+          <p>The <span class="bold">Indication</span> section is included in most radiology studies and typically states the reason why your doctor ordered this particular test. Often there will be billing code information included in this section.</p>
+        </div>
+      </div>
+
+      <div class="modal-content" id="modal-breast-density">
+        <div class="modal-close-button"><div></div><div></div></div>
+        <div class="modal-scroll-container">
+          <h1>About breast density</h1>
+          <p>Breasts are made of fat and gland tissue. The amount of fat and gland tissue in the breast determines how the breast will look on a mammogram. The more gland tissue in a breast, the more white the breast appears on a mammogram.</p>
+          <p>The amount of fat and gland tissue in the breast is graded from 1 to 4, all of which are normal. 1 means mostly fat tissue. 4 means mostly gland tissue.</p>
+          <p>Your breast score is 2, which means that there is slightly more fat than gland tissue. This is normal.</p>
+        </div>
+      </div>
+
+      <div class="modal-content" id="modal-quadrants">
+        <div class="modal-close-button"><div></div><div></div></div>
+        <div class="modal-scroll-container">
+          <h1>Describing Location: Quadrants</h1>
+          <p>The breast is mentally divided into four sections by the radiologist to easily locate things within it. The upper outer quadrant is the section closest to the armpit and shoulder.</p>
+          <div class="modal-image-container">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 475.09 360.374"><defs><style>.cls-1{fill:#666;}.cls-2{fill:#ccc;}.cls-3{fill:#009245;}</style></defs><title>breast-quadrants</title><g id="Layer_2" data-name="Layer 2"><g id="outline"><path class="cls-1" d="M196.223,253.844a109.677,109.677,0,0,1-20.06,13.242c-36.559,18.946-80.464,19.9-114.58,2.485A98.508,98.508,0,0,1,49.4,262.208a5.007,5.007,0,0,0-2.441-1.783c-23.948-18.156-36.94-46.293-36.958-80.9C9.985,151.9,22.48,125.411,35.709,97.365,38.5,91.447,41.387,85.327,44.2,79.119,51.908,62.066,57.5,42.164,60.822,19.967a5,5,0,0,0-9.891-1.479C47.748,39.773,42.416,58.786,35.084,75q-1.737,3.841-3.511,7.639C29.087,53.529,22.99,17.7,19.725,3.854A5,5,0,1,0,9.992,6.149c3.881,16.457,11.854,64.621,12.624,94.2a4.994,4.994,0,0,0,.146,1.054C10.585,127.463-.014,152.519,0,179.534c.02,37.841,14.323,68.687,40.688,88.709l.359,3.392c4.105,38.806,6.818,64.443,6.818,83.74a5,5,0,0,0,10,0c0-18.991-2.51-43.515-6.36-79.932,1.8,1.051,3.64,2.07,5.531,3.036a127.919,127.919,0,0,0,58.113,13.5,143.285,143.285,0,0,0,65.615-16.008A119.637,119.637,0,0,0,202.652,261.5a5,5,0,0,0-6.43-7.658Z"/><path class="cls-1" d="M475.09,179.534c.014-27.015-10.585-52.071-22.762-78.133a4.993,4.993,0,0,0,.146-1.054c.77-29.567,8.743-77.736,12.624-94.2a5,5,0,1,0-9.732-2.295C452.1,17.7,446,53.533,443.517,82.636q-1.766-3.8-3.511-7.639c-7.332-16.212-12.664-35.225-15.848-56.51a5,5,0,0,0-9.891,1.479c3.32,22.2,8.914,42.1,16.627,59.151,2.809,6.209,5.7,12.328,8.486,18.246,13.229,28.046,25.724,54.537,25.709,82.163-.018,34.6-13.01,62.741-36.958,80.9a5,5,0,0,0-2.441,1.784,98.493,98.493,0,0,1-12.184,7.363c-34.116,17.412-78.021,16.46-114.58-2.485a109.677,109.677,0,0,1-20.06-13.242,5,5,0,0,0-6.43,7.658,119.637,119.637,0,0,0,21.888,14.463,143.248,143.248,0,0,0,65.615,16.008,127.96,127.96,0,0,0,58.113-13.5c1.892-.966,3.729-1.985,5.532-3.037-3.851,36.416-6.361,60.942-6.361,79.933a5,5,0,0,0,10,0c0-19.3,2.714-44.95,6.823-83.772l.355-3.361C460.767,248.219,475.07,217.374,475.09,179.534Z"/></g><g id="nipples"><path class="cls-2" d="M112.377,161.037c-5.228-2.509-14.975-2.741-20.919-.853a29.012,29.012,0,0,0-16.4,12.69,31.409,31.409,0,0,0-4.459,21.81,27.459,27.459,0,0,0,8.694,15.692,29.87,29.87,0,0,0,49.2-23.308C128.288,175.654,122.669,165.975,112.377,161.037Zm-10.155,37.445a10.487,10.487,0,0,1-11.015-1.45,9.416,9.416,0,0,1-2.981-5.381,10.77,10.77,0,0,1,1.529-7.479,9.948,9.948,0,0,1,5.623-4.351,11.611,11.611,0,0,1,7.173.293,9.711,9.711,0,0,1,5.527,8.926A10.487,10.487,0,0,1,102.222,198.482Z"/><path class="cls-2" d="M346.595,187.067a29.87,29.87,0,0,0,49.2,23.308,27.459,27.459,0,0,0,8.694-15.692,31.409,31.409,0,0,0-4.459-21.81,29.012,29.012,0,0,0-16.4-12.69c-5.944-1.888-15.691-1.655-20.919.853C352.421,165.975,346.8,175.654,346.595,187.067Zm20.417,1.973a9.711,9.711,0,0,1,5.527-8.926,11.611,11.611,0,0,1,7.173-.293,9.948,9.948,0,0,1,5.623,4.351,10.77,10.77,0,0,1,1.529,7.479,9.416,9.416,0,0,1-2.981,5.381,10.242,10.242,0,0,1-16.871-7.992Z"/></g><g id="markings"><path class="cls-3" d="M115.807,89.522a2.5,2.5,0,0,1-2.386-3.247q.908-2.9,1.856-5.75a2.5,2.5,0,1,1,4.744,1.579q-.933,2.8-1.829,5.665A2.5,2.5,0,0,1,115.807,89.522Z"/><path class="cls-3" d="M106.1,258.024a2.5,2.5,0,0,1-2.359-1.674,115.4,115.4,0,0,1-3.444-12,2.5,2.5,0,0,1,4.871-1.13,110.462,110.462,0,0,0,3.292,11.478,2.5,2.5,0,0,1-2.359,3.327Zm-5.627-23.745A2.5,2.5,0,0,1,98,232.146c-.581-3.914-1.057-8.05-1.416-12.294a2.5,2.5,0,0,1,4.982-.421c.35,4.14.814,8.171,1.38,11.981a2.5,2.5,0,0,1-2.106,2.84A2.577,2.577,0,0,1,100.472,234.28Zm-2.1-24.337a2.5,2.5,0,0,1-2.5-2.418c-.1-2.935-.146-5.974-.146-9.031q0-1.641.019-3.3a2.528,2.528,0,0,1,2.528-2.472,2.5,2.5,0,0,1,2.472,2.528q-.018,1.627-.019,3.241c0,3,.048,5.986.143,8.867a2.5,2.5,0,0,1-2.417,2.581Zm.253-24.431-.126,0a2.5,2.5,0,0,1-2.373-2.621c.2-4.02.479-8.151.828-12.279a2.5,2.5,0,0,1,4.982.422c-.345,4.07-.619,8.143-.816,12.105A2.5,2.5,0,0,1,98.624,185.512Zm2.053-24.353a2.5,2.5,0,0,1-2.486-2.792c.472-4.025,1.018-8.126,1.622-12.19a2.5,2.5,0,0,1,4.945.734c-.6,4.014-1.135,8.064-1.6,12.039A2.5,2.5,0,0,1,100.676,161.159Zm3.588-24.173a2.556,2.556,0,0,1-.444-.04,2.5,2.5,0,0,1-2.02-2.9c.723-4.028,1.514-8.088,2.351-12.068a2.5,2.5,0,1,1,4.893,1.029c-.827,3.931-1.607,7.942-2.321,11.921A2.5,2.5,0,0,1,104.264,136.986Zm5.03-23.913a2.5,2.5,0,0,1-2.432-3.089c.97-4,2.007-8.008,3.083-11.905a2.5,2.5,0,1,1,4.819,1.331c-1.062,3.847-2.086,7.8-3.043,11.751A2.5,2.5,0,0,1,109.295,113.073Z"/><path class="cls-3" d="M114.068,274.352a2.5,2.5,0,0,1-2.07-1.095,60.706,60.706,0,0,1-3.234-5.352,2.5,2.5,0,1,1,4.4-2.368,55.443,55.443,0,0,0,2.964,4.909,2.5,2.5,0,0,1-2.065,3.906Z"/><path class="cls-3" d="M31.175,160.289a2.493,2.493,0,0,1-1.81-.774c-1.4-1.468-2.783-3.005-4.11-4.571a2.5,2.5,0,1,1,3.813-3.233c1.265,1.491,2.582,2.956,3.915,4.353a2.5,2.5,0,0,1-1.809,4.226Z"/><path class="cls-3" d="M115.838,192.814c-4.051,0-8.011-.142-11.836-.418a2.5,2.5,0,0,1,.361-4.987c3.706.269,7.544.405,11.41.406a2.529,2.529,0,0,1,2.533,2.5A2.472,2.472,0,0,1,115.838,192.814Zm11.659-.392a2.5,2.5,0,0,1-.162-4.995c3.755-.247,7.614-.617,11.47-1.1a2.5,2.5,0,1,1,.622,4.961c-3.953.5-7.911.875-11.764,1.129C127.607,192.42,127.551,192.422,127.5,192.422Zm-34.9-1.328a2.474,2.474,0,0,1-.386-.03c-3.971-.616-7.892-1.406-11.655-2.347a2.5,2.5,0,1,1,1.213-4.851c3.617.9,7.388,1.664,11.209,2.257a2.5,2.5,0,0,1-.38,4.971Zm58.047-1.556a2.5,2.5,0,0,1-.442-4.96c3.731-.675,7.532-1.463,11.3-2.344a2.5,2.5,0,0,1,1.138,4.869c-3.848.9-7.733,1.7-11.546,2.395A2.509,2.509,0,0,1,150.642,189.538ZM70,185.4a2.5,2.5,0,0,1-.848-.148,109.069,109.069,0,0,1-10.99-4.651,2.5,2.5,0,0,1,2.2-4.489,103.936,103.936,0,0,0,10.484,4.437A2.5,2.5,0,0,1,70,185.4Zm103.355-1.167a2.5,2.5,0,0,1-.686-4.9c3.71-1.061,7.417-2.219,11.019-3.442a2.5,2.5,0,0,1,1.608,4.734c-3.678,1.25-7.464,2.432-11.253,3.515A2.509,2.509,0,0,1,173.358,184.237Zm-124.25-9.106a2.487,2.487,0,0,1-1.352-.4,100.846,100.846,0,0,1-9.649-7.063,2.5,2.5,0,1,1,3.188-3.852,95.779,95.779,0,0,0,9.168,6.711,2.5,2.5,0,0,1-1.356,4.6Z"/><path class="cls-3" d="M195.438,176.723a2.5,2.5,0,0,1-.931-4.821c1.875-.751,3.711-1.52,5.458-2.285a2.5,2.5,0,0,1,2.006,4.58c-1.795.786-3.681,1.576-5.6,2.346A2.494,2.494,0,0,1,195.438,176.723Z"/><path class="cls-3" d="M359.443,89.522a2.5,2.5,0,0,1-2.385-1.754q-.9-2.859-1.829-5.664a2.5,2.5,0,0,1,4.744-1.579q.948,2.847,1.856,5.751a2.5,2.5,0,0,1-2.387,3.247Z"/><path class="cls-3" d="M369.151,258.025a2.5,2.5,0,0,1-2.359-3.327,110.344,110.344,0,0,0,3.292-11.478,2.5,2.5,0,1,1,4.871,1.13,115.424,115.424,0,0,1-3.444,12A2.5,2.5,0,0,1,369.151,258.025Zm5.628-23.745a2.582,2.582,0,0,1-.37-.027,2.5,2.5,0,0,1-2.105-2.84c.564-3.8,1.028-7.836,1.379-11.981a2.5,2.5,0,1,1,4.982.421c-.359,4.25-.836,8.386-1.416,12.294A2.5,2.5,0,0,1,374.779,234.28Zm2.1-24.336H376.8a2.5,2.5,0,0,1-2.418-2.58c.095-2.9.143-5.884.143-8.867q0-1.614-.018-3.243a2.5,2.5,0,0,1,2.474-2.527h.027a2.5,2.5,0,0,1,2.5,2.473q.018,1.656.018,3.3c0,3.037-.049,6.074-.145,9.029A2.5,2.5,0,0,1,376.881,209.943Zm-.255-24.431a2.5,2.5,0,0,1-2.5-2.376c-.2-3.972-.472-8.044-.815-12.105a2.5,2.5,0,1,1,4.982-.422c.349,4.119.627,8.25.827,12.279a2.5,2.5,0,0,1-2.373,2.621Zm-2.053-24.352a2.5,2.5,0,0,1-2.48-2.21c-.464-3.964-1-8.014-1.6-12.038a2.5,2.5,0,0,1,4.945-.734c.605,4.074,1.15,8.176,1.621,12.191a2.505,2.505,0,0,1-2.486,2.791Zm-3.588-24.174a2.5,2.5,0,0,1-2.458-2.06c-.711-3.969-1.492-7.979-2.32-11.921a2.5,2.5,0,1,1,4.893-1.028c.839,3.99,1.629,8.05,2.35,12.068a2.5,2.5,0,0,1-2.02,2.9A2.556,2.556,0,0,1,370.985,136.986Zm-5.029-23.913a2.5,2.5,0,0,1-2.428-1.912c-.959-3.96-1.983-7.914-3.043-11.751a2.5,2.5,0,0,1,4.82-1.331c1.073,3.888,2.11,7.894,3.082,11.905a2.5,2.5,0,0,1-2.432,3.089Z"/><path class="cls-3" d="M361.183,274.352a2.5,2.5,0,0,1-2.065-3.906,55.506,55.506,0,0,0,2.964-4.909,2.5,2.5,0,0,1,4.4,2.368,60.816,60.816,0,0,1-3.233,5.352A2.5,2.5,0,0,1,361.183,274.352Z"/><path class="cls-3" d="M444.076,160.289a2.5,2.5,0,0,1-1.81-4.225c1.334-1.4,2.651-2.864,3.914-4.354a2.5,2.5,0,0,1,3.814,3.233c-1.326,1.564-2.709,3.1-4.109,4.57A2.494,2.494,0,0,1,444.076,160.289Z"/><path class="cls-3" d="M359.478,192.814a2.528,2.528,0,0,1-2.533-2.5,2.473,2.473,0,0,1,2.468-2.5c3.93,0,7.769-.136,11.475-.406a2.5,2.5,0,0,1,.361,4.987C367.423,192.674,363.464,192.814,359.478,192.814Zm-11.723-.392c-.056,0-.111,0-.167-.005-3.854-.253-7.811-.633-11.764-1.129a2.5,2.5,0,0,1,.623-4.961c3.854.483,7.714.854,11.469,1.1a2.5,2.5,0,0,1-.161,4.995Zm34.9-1.328a2.5,2.5,0,0,1-.381-4.971c3.82-.593,7.592-1.353,11.209-2.257a2.5,2.5,0,0,1,1.213,4.851c-3.764.941-7.685,1.731-11.654,2.347A2.485,2.485,0,0,1,382.656,191.094Zm-58.048-1.555a2.509,2.509,0,0,1-.448-.041c-3.812-.69-7.7-1.5-11.546-2.395a2.5,2.5,0,1,1,1.137-4.869c3.769.88,7.569,1.669,11.3,2.344a2.5,2.5,0,0,1-.442,4.96Zm80.64-4.135a2.5,2.5,0,0,1-.848-4.853,103.984,103.984,0,0,0,10.484-4.437,2.5,2.5,0,0,1,2.2,4.489,109.117,109.117,0,0,1-10.99,4.651A2.505,2.505,0,0,1,405.248,185.4Zm-103.356-1.167a2.514,2.514,0,0,1-.688-.1c-3.785-1.082-7.571-2.265-11.252-3.515a2.5,2.5,0,1,1,1.607-4.734c3.6,1.224,7.312,2.382,11.02,3.442a2.5,2.5,0,0,1-.687,4.9Zm124.25-9.106a2.5,2.5,0,0,1-1.355-4.6,95.6,95.6,0,0,0,9.168-6.711,2.5,2.5,0,0,1,3.189,3.852,100.759,100.759,0,0,1-9.65,7.063A2.484,2.484,0,0,1,426.141,175.131Z"/><path class="cls-3" d="M279.813,176.723a2.492,2.492,0,0,1-.929-.18c-1.924-.771-3.81-1.56-5.6-2.346a2.5,2.5,0,0,1,2.006-4.58c1.747.765,3.583,1.534,5.458,2.285a2.5,2.5,0,0,1-.931,4.821Z"/></g></g></svg>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal-content" id="modal-clock">
+        <div class="modal-close-button"><div></div><div></div></div>
+        <div class="modal-scroll-container">
+          <h1>Describing location: The Clock</h1>
+          <p>To describe the location of a finding more specifically, the face of a clock is mentally imagined on the breast with the center of the clock over the nipple.</p>
+          <div class="modal-image-container breast-clock">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 261.261 261.26"><defs><style>.cls-1{fill:#666;}.cls-2{fill:#ccc;}.cls-3{fill:#39b54a;}</style></defs><title>breast-clock</title><g id="Layer_2" data-name="Layer 2"><g id="outline"><path class="cls-1" d="M130.63,261.26C58.6,261.26,0,202.66,0,130.629S58.6,0,130.63,0,261.261,58.6,261.261,130.629A130.779,130.779,0,0,1,130.63,261.26Zm0-251.26A120.63,120.63,0,1,0,251.261,130.629,120.766,120.766,0,0,0,130.63,10Z"/></g><g id="nipples"><path class="cls-2" d="M161.606,133.351a31.77,31.77,0,0,0-4.129-22.328c-3.475-5.879-11.6-12.8-17.7-14.569-12.007-3.478-23.659.323-32.157,9.492a32.711,32.711,0,0,0,23.165,54.936,30.07,30.07,0,0,0,18.55-6.469A34.4,34.4,0,0,0,161.606,133.351Zm-24.454,5.724a10.311,10.311,0,0,1-6.361,2.218,11.217,11.217,0,0,1-7.943-18.838,10.635,10.635,0,0,1,11.026-3.255,12.715,12.715,0,0,1,6.07,5,10.894,10.894,0,0,1,1.416,7.656A11.794,11.794,0,0,1,137.152,139.075Z"/></g><g id="markings"><path class="cls-3" d="M127.192,32.593H124.12V20.566l-3,1.157V19.171l5.742-2.347h.325Z"/><path class="cls-3" d="M140.938,32.593h-9.279V30.43l4.262-5.418q.454-.627.757-1.141a8.218,8.218,0,0,0,.486-.946,4.251,4.251,0,0,0,.26-.8,3.582,3.582,0,0,0,.075-.714,3.151,3.151,0,0,0-.362-1.644,1.152,1.152,0,0,0-1.043-.595,1.263,1.263,0,0,0-.714.2,1.635,1.635,0,0,0-.509.552,2.723,2.723,0,0,0-.3.838,5.388,5.388,0,0,0-.1,1.049H131.4a6.043,6.043,0,0,1,.33-2.012,4.989,4.989,0,0,1,.941-1.644,4.43,4.43,0,0,1,1.492-1.114,4.643,4.643,0,0,1,1.984-.411,5.452,5.452,0,0,1,1.909.309,3.738,3.738,0,0,1,1.39.881,3.678,3.678,0,0,1,.849,1.406,6.028,6.028,0,0,1,.081,3.4,7.532,7.532,0,0,1-.589,1.477,11.629,11.629,0,0,1-.936,1.487q-.552.752-1.244,1.574l-2.022,2.888h5.354Z"/><path class="cls-3" d="M185.75,46.782h-3.072V34.756l-3,1.157V33.361l5.742-2.347h.325Z"/><path class="cls-3" d="M227.057,85.548h-9.279V83.385l4.262-5.418q.454-.627.757-1.141a8.218,8.218,0,0,0,.486-.946,4.251,4.251,0,0,0,.26-.8,3.582,3.582,0,0,0,.075-.714,3.151,3.151,0,0,0-.362-1.644,1.152,1.152,0,0,0-1.043-.595,1.263,1.263,0,0,0-.714.2,1.635,1.635,0,0,0-.509.552,2.723,2.723,0,0,0-.3.838,5.388,5.388,0,0,0-.1,1.049h-3.072a6.043,6.043,0,0,1,.33-2.012,4.989,4.989,0,0,1,.941-1.644A4.43,4.43,0,0,1,220.281,70a4.643,4.643,0,0,1,1.984-.411,5.452,5.452,0,0,1,1.909.309,3.738,3.738,0,0,1,1.39.881,3.678,3.678,0,0,1,.849,1.406,6.028,6.028,0,0,1,.081,3.4,7.532,7.532,0,0,1-.589,1.477,11.629,11.629,0,0,1-.936,1.487q-.552.752-1.244,1.574L221.7,83.007h5.354Z"/><path class="cls-3" d="M234.691,129.236h1.481a1.382,1.382,0,0,0,1.238-.59,2.781,2.781,0,0,0,.395-1.573,3.218,3.218,0,0,0-.092-.795,1.842,1.842,0,0,0-.281-.627,1.373,1.373,0,0,0-.47-.417,1.417,1.417,0,0,0-1.206-.032,1.3,1.3,0,0,0-.46.346,1.79,1.79,0,0,0-.313.552,2.135,2.135,0,0,0-.119.735H231.8a4.384,4.384,0,0,1,.346-1.768,4.05,4.05,0,0,1,.941-1.353,4.254,4.254,0,0,1,1.4-.865,4.824,4.824,0,0,1,1.736-.308,5.911,5.911,0,0,1,1.882.286,3.979,3.979,0,0,1,1.465.854,3.9,3.9,0,0,1,.952,1.406,5.139,5.139,0,0,1,.341,1.941,3.808,3.808,0,0,1-.53,1.941,4.064,4.064,0,0,1-.633.811,3.6,3.6,0,0,1-.859.633,3.37,3.37,0,0,1,1.66,1.428,4.454,4.454,0,0,1,.546,2.25,4.918,4.918,0,0,1-.373,1.968,4.168,4.168,0,0,1-1.022,1.455,4.42,4.42,0,0,1-1.535.9,5.807,5.807,0,0,1-1.915.308,5.336,5.336,0,0,1-1.682-.27,4.1,4.1,0,0,1-1.449-.833,4.193,4.193,0,0,1-1.021-1.411,4.8,4.8,0,0,1-.39-2.018h3.061a2.537,2.537,0,0,0,.119.795,2.063,2.063,0,0,0,.324.628,1.5,1.5,0,0,0,.492.416,1.34,1.34,0,0,0,.633.151,1.627,1.627,0,0,0,.714-.151,1.505,1.505,0,0,0,.535-.433,2.027,2.027,0,0,0,.341-.676,3.062,3.062,0,0,0,.119-.882,2.689,2.689,0,0,0-.481-1.79,1.7,1.7,0,0,0-1.347-.546h-1.481Z"/><path class="cls-3" d="M225.846,185.511h1.341v2.541h-1.341v3.407h-3.061v-3.407h-5.213l-.141-1.979,5.343-10.361h3.071Zm-5.44,0h2.38v-5.267l-.065.118Z"/><path class="cls-3" d="M179.325,222.481l.779-8h7.624V217.1h-5.115l-.281,3.375c.087-.058.191-.121.313-.189a3.431,3.431,0,0,1,.422-.2,3.563,3.563,0,0,1,.514-.151,2.779,2.779,0,0,1,.579-.06,4.037,4.037,0,0,1,1.741.357,3.385,3.385,0,0,1,1.271,1.038,4.811,4.811,0,0,1,.778,1.666,8.623,8.623,0,0,1,.266,2.238,7.027,7.027,0,0,1-.281,2,4.925,4.925,0,0,1-.854,1.677,4.22,4.22,0,0,1-1.438,1.157,4.5,4.5,0,0,1-2.033.432,4.807,4.807,0,0,1-1.7-.308,4.418,4.418,0,0,1-2.5-2.353,4.752,4.752,0,0,1-.4-1.946h3.028a2.855,2.855,0,0,0,.486,1.524,1.276,1.276,0,0,0,1.061.541,1.192,1.192,0,0,0,.735-.228,1.672,1.672,0,0,0,.492-.616,3.233,3.233,0,0,0,.271-.919,7.641,7.641,0,0,0,.081-1.146,5.4,5.4,0,0,0-.108-1.125,2.541,2.541,0,0,0-.341-.865,1.681,1.681,0,0,0-.584-.557,1.663,1.663,0,0,0-.838-.2,1.941,1.941,0,0,0-.568.075,1.652,1.652,0,0,0-.422.2,1.413,1.413,0,0,0-.308.275,3.762,3.762,0,0,0-.238.319Z"/><path class="cls-3" d="M133.356,228.505v2.6H133.2a4.408,4.408,0,0,0-1.578.265,3.259,3.259,0,0,0-1.185.769,3.954,3.954,0,0,0-.8,1.222,5.907,5.907,0,0,0-.416,1.628,3.332,3.332,0,0,1,1.07-.816,3.149,3.149,0,0,1,1.385-.3,3.1,3.1,0,0,1,1.644.428,3.617,3.617,0,0,1,1.174,1.157,5.46,5.46,0,0,1,.7,1.7,8.9,8.9,0,0,1,.232,2.065,6.825,6.825,0,0,1-.324,2.136,5.26,5.26,0,0,1-.92,1.715,4.235,4.235,0,0,1-3.353,1.557,4.21,4.21,0,0,1-1.968-.454,4.326,4.326,0,0,1-1.493-1.281,6.067,6.067,0,0,1-.946-1.984,9.3,9.3,0,0,1-.33-2.553v-1.211a12.689,12.689,0,0,1,.455-3.5,8.136,8.136,0,0,1,1.324-2.731,6.037,6.037,0,0,1,2.147-1.773,6.485,6.485,0,0,1,2.92-.633Zm-2.629,7.9a1.382,1.382,0,0,0-.979.367,2.264,2.264,0,0,0-.589.908v1.1a5.411,5.411,0,0,0,.443,2.487,1.319,1.319,0,0,0,1.168.822,1.144,1.144,0,0,0,.67-.211,1.717,1.717,0,0,0,.514-.59,3.279,3.279,0,0,0,.325-.9,5.348,5.348,0,0,0,.113-1.136,5.219,5.219,0,0,0-.119-1.151,3.178,3.178,0,0,0-.341-.9,1.8,1.8,0,0,0-.529-.589A1.176,1.176,0,0,0,130.728,236.4Z"/><path class="cls-3" d="M82.336,216.241l-4.975,13.984H74.127l5-13.205H72.808v-2.542h9.528Z"/><path class="cls-3" d="M43.159,179.9a4.157,4.157,0,0,1-.486,2.033,3.778,3.778,0,0,1-1.342,1.417,4.055,4.055,0,0,1,1.536,1.52,4.452,4.452,0,0,1,.563,2.276,5.227,5.227,0,0,1-.341,1.969,4,4,0,0,1-.94,1.417,3.882,3.882,0,0,1-1.428.859,5.828,5.828,0,0,1-3.607,0,3.885,3.885,0,0,1-2.4-2.276,5.148,5.148,0,0,1-.347-1.969,4.484,4.484,0,0,1,.563-2.282,3.954,3.954,0,0,1,1.547-1.514,3.744,3.744,0,0,1-1.352-1.417,4.147,4.147,0,0,1-.487-2.033,5.288,5.288,0,0,1,.313-1.893,3.788,3.788,0,0,1,.882-1.379,3.746,3.746,0,0,1,1.352-.844,5.311,5.311,0,0,1,3.439,0,3.694,3.694,0,0,1,1.347.844,3.828,3.828,0,0,1,.876,1.379A5.288,5.288,0,0,1,43.159,179.9Zm-2.8,7.009a2.979,2.979,0,0,0-.39-1.645,1.266,1.266,0,0,0-2.146,0,2.944,2.944,0,0,0-.4,1.645,2.913,2.913,0,0,0,.4,1.638,1.248,1.248,0,0,0,1.1.59,1.19,1.19,0,0,0,1.065-.59A3.057,3.057,0,0,0,40.358,186.907Zm-.249-6.847a3.107,3.107,0,0,0-.3-1.471.975.975,0,0,0-.913-.552.963.963,0,0,0-.887.535,3.041,3.041,0,0,0-.3,1.487,3.183,3.183,0,0,0,.3,1.5.972.972,0,0,0,.908.568.952.952,0,0,0,.9-.568A3.291,3.291,0,0,0,40.109,180.06Z"/><path class="cls-3" d="M22.254,136.027a3.7,3.7,0,0,0,2.73-.919,4.332,4.332,0,0,0,1.1-2.693,3.673,3.673,0,0,1-.984.725,2.523,2.523,0,0,1-1.146.271,3.387,3.387,0,0,1-1.665-.4,3.51,3.51,0,0,1-1.211-1.108,5.226,5.226,0,0,1-.736-1.682,8.547,8.547,0,0,1-.248-2.109,7.154,7.154,0,0,1,.318-2.157,5.581,5.581,0,0,1,.909-1.769,4.374,4.374,0,0,1,1.433-1.2,3.978,3.978,0,0,1,1.882-.443,3.833,3.833,0,0,1,1.86.459,4.228,4.228,0,0,1,1.438,1.3,6.552,6.552,0,0,1,.925,2.027,9.819,9.819,0,0,1,.33,2.634v1.1a13.416,13.416,0,0,1-.433,3.531,7.8,7.8,0,0,1-1.3,2.714,5.8,5.8,0,0,1-2.158,1.741,6.962,6.962,0,0,1-3.012.611h-.194v-2.639Zm2.477-5.019a1.145,1.145,0,0,0,.821-.346,2.542,2.542,0,0,0,.573-.865v-1.406a7.843,7.843,0,0,0-.118-1.454,3.9,3.9,0,0,0-.33-1.033,1.729,1.729,0,0,0-.487-.616.954.954,0,0,0-.578-.206.9.9,0,0,0-.633.255,1.994,1.994,0,0,0-.46.67,4.271,4.271,0,0,0-.281.957,6.331,6.331,0,0,0-.1,1.114,6.622,6.622,0,0,0,.092,1.136,3.514,3.514,0,0,0,.286.93,1.741,1.741,0,0,0,.5.633A1.135,1.135,0,0,0,24.73,131.008Z"/><path class="cls-3" d="M35.471,85.548H32.4V73.522l-3,1.157V72.127l5.742-2.347h.325Z"/><path class="cls-3" d="M49.086,79.038a12.054,12.054,0,0,1-.335,3.044,6.091,6.091,0,0,1-.94,2.087,3.776,3.776,0,0,1-1.444,1.206,4.576,4.576,0,0,1-3.693,0,3.754,3.754,0,0,1-1.449-1.206,6.15,6.15,0,0,1-.946-2.087,11.857,11.857,0,0,1-.341-3.044V76.291a12,12,0,0,1,.335-3.034,6.073,6.073,0,0,1,.941-2.087,3.719,3.719,0,0,1,1.443-1.2,4.629,4.629,0,0,1,3.693,0,3.708,3.708,0,0,1,1.449,1.2,6.131,6.131,0,0,1,.946,2.087,11.808,11.808,0,0,1,.341,3.034Zm-3.071-3.19a11.817,11.817,0,0,0-.108-1.747,4.581,4.581,0,0,0-.3-1.146,1.472,1.472,0,0,0-.476-.633,1.11,1.11,0,0,0-1.255,0,1.472,1.472,0,0,0-.476.633,4.581,4.581,0,0,0-.3,1.146,11.817,11.817,0,0,0-.108,1.747v3.612a12.137,12.137,0,0,0,.108,1.768A4.5,4.5,0,0,0,43.4,82.39a1.5,1.5,0,0,0,.48.638,1.1,1.1,0,0,0,.639.195,1.055,1.055,0,0,0,.622-.195,1.491,1.491,0,0,0,.47-.638,4.533,4.533,0,0,0,.3-1.163,12.821,12.821,0,0,0,.1-1.768Z"/><path class="cls-3" d="M74.236,46.782H71.164V34.755l-3,1.157V33.36l5.742-2.347h.325Z"/><path class="cls-3" d="M85.44,46.782H82.368V34.755l-3,1.157V33.36l5.742-2.347h.325Z"/><path class="cls-3" d="M133.036,130.68c.021-.078.04-.155.053-.235a2.447,2.447,0,0,0,.027-.269c0-.047.014-.092.014-.14V41.665a2.5,2.5,0,0,0-5,0V125.7L93.615,105.777a2.5,2.5,0,1,0-2.5,4.33L129.381,132.2c.029.017.061.022.091.037a2.466,2.466,0,0,0,.422.174c.052.016.1.036.156.048a2.489,2.489,0,0,0,.573.074h.009a2.484,2.484,0,0,0,.585-.076c.05-.012.1-.03.146-.045a2.468,2.468,0,0,0,.41-.166c.051-.026.1-.052.15-.081a2.492,2.492,0,0,0,.418-.315c.016-.015.035-.026.051-.042a2.505,2.505,0,0,0,.366-.474c.011-.019.028-.032.039-.051.024-.041.036-.085.057-.127a2.458,2.458,0,0,0,.112-.248C132.994,130.833,133.016,130.757,133.036,130.68Z"/></g></g></svg>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal-content" id="modal-depth">
+        <div class="modal-close-button"><div></div><div></div></div>
+        <div class="modal-scroll-container">
+          <h1>Describing location: Depth</h1>
+          <p>To describe where something is inside the breast, the radiologist mentally divides the breast into three levels of depth from front to back:</p>
+          <div class="modal-image-container breast-depths">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 146.852 329"><defs><style>.cls-1{fill:#666;}.cls-2{fill:#39b54a;}</style></defs><title>breast-depths</title><g id="Layer_2" data-name="Layer 2"><g id="outline"><path class="cls-1" d="M93.489,297.785a103.068,103.068,0,0,1-52-13.811C15.124,268.522,0,242.641,0,212.968c0-43.667,31.52-69.809,64.89-97.486,29.479-24.45,59.962-49.732,72.183-89.416a5,5,0,1,1,9.557,2.943c-13.1,42.533-46.174,69.966-75.355,94.169C38.4,150.448,10,174,10,212.968,10,239,23.322,261.735,46.55,275.347c27.933,16.368,64.38,16.636,92.857.681a5,5,0,0,1,4.888,8.725A104.2,104.2,0,0,1,93.489,297.785Z"/></g><g id="markings"><path class="cls-2" d="M20.155,329a2.5,2.5,0,0,1-2.5-2.5v-12a2.5,2.5,0,0,1,5,0v12A2.5,2.5,0,0,1,20.155,329Zm0-24a2.5,2.5,0,0,1-2.5-2.5v-12a2.5,2.5,0,0,1,5,0v12A2.5,2.5,0,0,1,20.155,305Zm0-24a2.5,2.5,0,0,1-2.5-2.5v-12a2.5,2.5,0,0,1,5,0v12A2.5,2.5,0,0,1,20.155,281Zm0-24a2.5,2.5,0,0,1-2.5-2.5v-12a2.5,2.5,0,0,1,5,0v12A2.5,2.5,0,0,1,20.155,257Zm0-24a2.5,2.5,0,0,1-2.5-2.5v-12a2.5,2.5,0,0,1,5,0v12A2.5,2.5,0,0,1,20.155,233Zm0-24a2.5,2.5,0,0,1-2.5-2.5v-12a2.5,2.5,0,0,1,5,0v12A2.5,2.5,0,0,1,20.155,209Zm0-24a2.5,2.5,0,0,1-2.5-2.5v-12a2.5,2.5,0,0,1,5,0v12A2.5,2.5,0,0,1,20.155,185Zm0-24a2.5,2.5,0,0,1-2.5-2.5v-12a2.5,2.5,0,0,1,5,0v12A2.5,2.5,0,0,1,20.155,161Zm0-24a2.5,2.5,0,0,1-2.5-2.5v-12a2.5,2.5,0,0,1,5,0v12A2.5,2.5,0,0,1,20.155,137Zm0-24a2.5,2.5,0,0,1-2.5-2.5v-12a2.5,2.5,0,0,1,5,0v12A2.5,2.5,0,0,1,20.155,113Zm0-24a2.5,2.5,0,0,1-2.5-2.5v-12a2.5,2.5,0,0,1,5,0v12A2.5,2.5,0,0,1,20.155,89Zm0-24a2.5,2.5,0,0,1-2.5-2.5v-12a2.5,2.5,0,0,1,5,0v12A2.5,2.5,0,0,1,20.155,65Zm0-24a2.5,2.5,0,0,1-2.5-2.5v-12a2.5,2.5,0,0,1,5,0v12A2.5,2.5,0,0,1,20.155,41Zm0-24a2.5,2.5,0,0,1-2.5-2.5V2.5a2.5,2.5,0,0,1,5,0v12A2.5,2.5,0,0,1,20.155,17Z"/><path class="cls-2" d="M76.238,329a2.5,2.5,0,0,1-2.5-2.5v-12a2.5,2.5,0,0,1,5,0v12A2.5,2.5,0,0,1,76.238,329Zm0-24a2.5,2.5,0,0,1-2.5-2.5v-12a2.5,2.5,0,0,1,5,0v12A2.5,2.5,0,0,1,76.238,305Zm0-24a2.5,2.5,0,0,1-2.5-2.5v-12a2.5,2.5,0,0,1,5,0v12A2.5,2.5,0,0,1,76.238,281Zm0-24a2.5,2.5,0,0,1-2.5-2.5v-12a2.5,2.5,0,0,1,5,0v12A2.5,2.5,0,0,1,76.238,257Zm0-24a2.5,2.5,0,0,1-2.5-2.5v-12a2.5,2.5,0,0,1,5,0v12A2.5,2.5,0,0,1,76.238,233Zm0-24a2.5,2.5,0,0,1-2.5-2.5v-12a2.5,2.5,0,0,1,5,0v12A2.5,2.5,0,0,1,76.238,209Zm0-24a2.5,2.5,0,0,1-2.5-2.5v-12a2.5,2.5,0,0,1,5,0v12A2.5,2.5,0,0,1,76.238,185Zm0-24a2.5,2.5,0,0,1-2.5-2.5v-12a2.5,2.5,0,0,1,5,0v12A2.5,2.5,0,0,1,76.238,161Zm0-24a2.5,2.5,0,0,1-2.5-2.5v-12a2.5,2.5,0,0,1,5,0v12A2.5,2.5,0,0,1,76.238,137Zm0-24a2.5,2.5,0,0,1-2.5-2.5v-12a2.5,2.5,0,0,1,5,0v12A2.5,2.5,0,0,1,76.238,113Zm0-24a2.5,2.5,0,0,1-2.5-2.5v-12a2.5,2.5,0,0,1,5,0v12A2.5,2.5,0,0,1,76.238,89Zm0-24a2.5,2.5,0,0,1-2.5-2.5v-12a2.5,2.5,0,0,1,5,0v12A2.5,2.5,0,0,1,76.238,65Zm0-24a2.5,2.5,0,0,1-2.5-2.5v-12a2.5,2.5,0,0,1,5,0v12A2.5,2.5,0,0,1,76.238,41Zm0-24a2.5,2.5,0,0,1-2.5-2.5V2.5a2.5,2.5,0,0,1,5,0v12A2.5,2.5,0,0,1,76.238,17Z"/><path class="cls-2" d="M132.32,329a2.5,2.5,0,0,1-2.5-2.5v-12a2.5,2.5,0,0,1,5,0v12A2.5,2.5,0,0,1,132.32,329Zm0-24a2.5,2.5,0,0,1-2.5-2.5v-12a2.5,2.5,0,0,1,5,0v12A2.5,2.5,0,0,1,132.32,305Zm0-24a2.5,2.5,0,0,1-2.5-2.5v-12a2.5,2.5,0,0,1,5,0v12A2.5,2.5,0,0,1,132.32,281Zm0-24a2.5,2.5,0,0,1-2.5-2.5v-12a2.5,2.5,0,0,1,5,0v12A2.5,2.5,0,0,1,132.32,257Zm0-24a2.5,2.5,0,0,1-2.5-2.5v-12a2.5,2.5,0,0,1,5,0v12A2.5,2.5,0,0,1,132.32,233Zm0-24a2.5,2.5,0,0,1-2.5-2.5v-12a2.5,2.5,0,0,1,5,0v12A2.5,2.5,0,0,1,132.32,209Zm0-24a2.5,2.5,0,0,1-2.5-2.5v-12a2.5,2.5,0,0,1,5,0v12A2.5,2.5,0,0,1,132.32,185Zm0-24a2.5,2.5,0,0,1-2.5-2.5v-12a2.5,2.5,0,0,1,5,0v12A2.5,2.5,0,0,1,132.32,161Zm0-24a2.5,2.5,0,0,1-2.5-2.5v-12a2.5,2.5,0,0,1,5,0v12A2.5,2.5,0,0,1,132.32,137Zm0-24a2.5,2.5,0,0,1-2.5-2.5v-12a2.5,2.5,0,0,1,5,0v12A2.5,2.5,0,0,1,132.32,113Zm0-24a2.5,2.5,0,0,1-2.5-2.5v-12a2.5,2.5,0,0,1,5,0v12A2.5,2.5,0,0,1,132.32,89Zm0-24a2.5,2.5,0,0,1-2.5-2.5v-12a2.5,2.5,0,0,1,5,0v12A2.5,2.5,0,0,1,132.32,65Zm0-24a2.5,2.5,0,0,1-2.5-2.5v-12a2.5,2.5,0,0,1,5,0v12A2.5,2.5,0,0,1,132.32,41Zm0-24a2.5,2.5,0,0,1-2.5-2.5V2.5a2.5,2.5,0,0,1,5,0v12A2.5,2.5,0,0,1,132.32,17Z"/></g></g></svg>
+          </div>
+          <p><span class="bold">Anterior depth</span> - near the front/nipple</p>
+          <p><span class="bold">Middle depth</span> - about halfway between the nipple and the rib cage</p>
+          <p><span class="bold">Posterior depth</span> - in the deepest third of the breast tissue, closest to the rib cage</p>
+        </div>
+      </div>
+
+      <div class="modal-content" id="modal-calcifications">
+        <div class="modal-close-button"><div></div><div></div></div>
+        <div class="modal-scroll-container">
+          <h2 class="definition-term">Calcifications</h2>
+          <p>These mineral deposits (of calcium) in the breast are common in women, and can be caused by many different things. Sometimes they are casued by breast cancer.</p>
+          <p>The shape and amount of calcification can sometimes help a radiologist tell whether or not a calcification is cancer. Abnormal calcifications may require a biopsy to determine if they are cancer.</p>
+        </div>
+      </div>
+
+      <div class="modal-content" id="modal-new-from-prior">
+        <div class="modal-close-button"><div></div><div></div></div>
+        <div class="modal-scroll-container">
+          <h2 class="definition-term">New from prior</h2>
+          <p>Not previously seen on your older mammograms</p>
+        </div>
+      </div>
+
+      <div class="modal-content" id="modal-stable-from-prior">
+        <div class="modal-close-button"><div></div><div></div></div>
+        <div class="modal-scroll-container">
+          <h2 class="definition-term">Stable from prior</h2>
+          <p>Looks the same on your older mammograms (has not changed)</p>
+        </div>
+      </div>
+
+      <div class="modal-content" id="modal-suspicious-worrisome">
+        <div class="modal-close-button"><div></div><div></div></div>
+        <div class="modal-scroll-container">
+          <h2 class="definition-term">Suspicious/<wbr>worrisome</h2>
+          <p>These terms are used to describe findings that are not normal and may represent cancer.</p>
+        </div>
+      </div>
+
+      <div class="modal-content" id="modal-mass">
+        <div class="modal-close-button"><div></div><div></div></div>
+        <div class="modal-scroll-container">
+          <h2 class="definition-term">Mass</h2>
+          <p>A collection or lump of tissue that takes up space. While cancer can cause a mass, other things that are not cancer can also take the shape of a mass.</p>
+        </div>
+      </div>
+
+      <div class="modal-content" id="modal-asymmetry">
+        <div class="modal-close-button"><div></div><div></div></div>
+        <div class="modal-scroll-container">
+          <h2 class="definition-term">Asymmetry</h2>
+          <p>Breast tissue normally appears similar in the right breast and the left breast. An area of tissue that stands out when compared to the other breast is called an asymmetry. While cancer can cause an asymmetry, other things that are not cancer can also cause asymmetry.</p>
+        </div>
+      </div>
+
+      <div class="modal-content" id="modal-equal-density">
+        <div class="modal-close-button"><div></div><div></div></div>
+        <div class="modal-scroll-container">
+          <h2 class="definition-term">Equal density</h2>
+          <p>The mass is a similar shade of gray on the mammogram compared to normal surrounding breast tissue.</p>
+        </div>
+      </div>
+
+      <div class="modal-content" id="modal-oval">
+        <div class="modal-close-button"><div></div><div></div></div>
+        <div class="modal-scroll-container">
+          <h2 class="definition-term">Oval</h2>
+          <p>This describes the shape of a mass. Oval masses are typically not cancer. It is rare for cancer to appear as an oval mass on a mammogram.</p>
+        </div>
+      </div>
+
+      <div class="modal-content" id="modal-circumscribed">
+        <div class="modal-close-button"><div></div><div></div></div>
+        <div class="modal-scroll-container">
+          <h2 class="definition-term">Circumscribed</h2>
+          <p>This describes the borders of a mass. Circumscribed means that the mass has well-defined borders and edges. Circumscribed masses are usually not cancer.</p>
+        </div>
+      </div>
+
+      <div class="modal-content" id="modal-pleomorphic">
+        <div class="modal-close-button"><div></div><div></div></div>
+        <div class="modal-scroll-container">
+          <h2 class="definition-term">Pleomorphic</h2>
+          <p>A term used to describe calcifications that are small and are varied in shape. This type of calcification is sometimes associated with breast cancer. </p>
+        </div>
+      </div>
+
+    </div>
+
+    <footer>
+      <div class="footer-container">
+        <div class="flex-container">
+          <div class="flex-item">
+            <!-- <h1 class="scanslated-logo">Scan<span>slated</span></h1> -->
+              <h1>&copy; <script type="text/javascript">document.write(new Date().getFullYear());</script> Scanslated, Inc.</h1>
+            <p><a href=""><i class="fa fa-phone" aria-hidden="true"></i>&nbsp;&nbsp;1-800-919-0000</a></p>
+          </div>
+          <div class="flex-item">
+            <h1>Information</h1>
+            <p><a href="">About Scanslated</a></p>
+            <p><a href="">About Duke Health</a></p>
+          </div>
+          <div class="flex-item">
+            <h1>Resources</h1>
+            <p><a href="">Duke MyChart</a></p>
+            <p><a href="">Privacy Policy</a></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/smooth-scroll.js"></script>
+    <script src="js/navigation.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/scroll-waypoints.js"></script>
+    <script src="js/modal.js"></script>
+    <script src="js/breast-diagram-highlight.js"></script>
+  </body>
+</html>
