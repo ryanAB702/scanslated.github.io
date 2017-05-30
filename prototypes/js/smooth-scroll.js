@@ -6,7 +6,7 @@ $(document).ready(function(){
       var offsetAmt = 0;
 
       if($('#nav-list').css('display') != 'none') {
-        offsetAmt = $('#nav-list').outerHeight() - 128 + 32;
+        offsetAmt = $('#nav-list').outerHeight() - 96 + 32;
         if (typeof target.attr("data-scrolloffset") != 'undefined') {
           offsetAmt = $('#nav-list').outerHeight() + target.data("scrolloffset");
         }
